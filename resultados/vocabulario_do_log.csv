@@ -1,0 +1,926 @@
+evento,ocorrencias
+VOTA | Tecla indevida pressionada,224086
+VOTA | Voto confirmado para [Senador],151444
+VOTA | Solicita digital. Tentativa [N] de [N],112064
+VOTA | Capturada a digital. Tentativa [N] de [N],110789
+VOTA | Aguardando digitação do identificador do eleitor,85294
+VOTA | Identificador do eleitor digitado pelo mesário,82136
+VOTA | Eleitor foi habilitado,75812
+VOTA | O voto do eleitor foi computado,75767
+VOTA | Voto confirmado para [Deputado Federal],75739
+VOTA | Voto confirmado para [Presidente],75738
+VOTA | Voto confirmado para [Deputado Estadual],75733
+VOTA | Voto confirmado para [Governador],75712
+VOTA | Foto do eleitor apresentada,73024
+VOTA | Tipo de habilitação do eleitor [biométrica],68675
+VOTA | Identificador digitado pelo mesário foi: (Título de eleitor),61429
+VOTA | Número de tentativas de reconhecimento do dedo. Tentativa [N] de [N],42114
+VOTA | Identificador digitado pelo mesário foi: (CPF),17314
+VOTA | Batimento de digitais retornou o score N,12735
+VOTA | Biometria coletada não é do mesário N (N),7116
+VOTA | Eleitor corrigiu na tela de confirmação de candidato,6898
+VOTA | Espaço livre na MV [N.N MB],6227
+VOTA | Quantidade de memória usada [N.N MB],6227
+VOTA | Espaço utilizado na MI [N.N MB],5839
+VOTA | Espaço utilizado na MV [N.N MB],5786
+VOTA | Espaço livre na MI [N.N GB],5242
+VOTA | Quantidade de memória total [N.N GB],5242
+VOTA | Quantidade de memória livre [N.N GB],5242
+VOTA | Urna ligada conectada na rede CA em [N.NV] e na Bateria Interna com [N.NV/NA],4909
+VOTA | Solicitação de dado pessoal do eleitor para habilitação manual,4683
+VOTA | Solicita digital do mesário,4582
+VOTA | Dado digitado confere,4472
+VOTA | Eleitor sem atividade por N segundos,3438
+VOTA | Identificador do eleitor digitado inválido,3146
+VOTA | Mesário N habilitou o eleitor,2838
+VOTA | Ano de nascimento digitado é igual ao do cadastro,2697
+VOTA | Operador confirmou o registro de mesários,2566
+VOTA | Eleitor voltou a digitar enquanto estava sendo suspenso,2430
+VOTA | Pedido de leitura da biometria do mesário N,2226
+VOTA | Biometria do mesário N encontrada nos arquivos coletados (N),2131
+VOTA | Mesário N registrado,2122
+VOTA | Operador indagado se continua registrando mesários,2121
+VOTA | Inspeção da urna iniciada,2089
+VOTA | Inspeção da urna confirmada,2089
+VOTA | Inspeção da urna terminada,2089
+VOTA | Mesário N não é eleitor da seção,1364
+GAP | Verificação de assinatura - Etapa [N] - [/uenux/bin/avpartN.vst] - [SUCESSO],1316
+VOTA | Mesário indagado se eleitor está votando,1232
+VOTA | Timeout de reconhecimento do dedo. Tentativa [N] de [N],1207
+VOTA | Biometria coletada não é do mesário N,992
+VOTA | Espaço livre na MI [N.N MB],985
+VOTA | Quantidade de memória total [N.N MB],985
+VOTA | Quantidade de memória livre [N.N MB],985
+VOTA | Início de impressão,954
+VOTA | Fim de impressão,954
+VOTA | Eleitor está votando,907
+VOTA | Digital coletada bate com uma digital gravada após o registro inicial de mesário. Não é possível associar a habilitação a um mesário.,807
+VOTA | Capturada a digital do mesário,795
+"VOTA | Não encontrou digital coletada em nenhum dos arquivos, vai salvar a digital em novo arquivo.",795
+VOTA | Operador indagado se finaliza registro mesários,781
+VOTA | Justificativa recebida,773
+VOTA | Mesário N é eleitor da seção,758
+VOTA | Operador indagado se ocorrerá registro de mesários,696
+VOTA | Operador encerrou ciclo de registro de mesários,695
+GAP | Identificação do Modelo de Urna: UEN,662
+GAP | Verificação de assinatura - Etapa [N] - [/uenux/bin/avusrbin.vst] - [SUCESSO],658
+VOTA | Eleitor não encontrado para o identificador informado,637
+VOTA | Realizada a conferência da biometria do mesário,562
+VOTA | Biometria do mesário N encontrada em eleitores,497
+VOTA | Urna operando na rede elétrica,494
+VOTA | Habilitação cancelada durante confirmação de dado do eleitor,451
+VOTA | Espaço utilizado na MV [N.N KB],441
+VOTA | Digitado título inválido para o registro de mesário,428
+VOTA | Início do teste de Teclado do TE,390
+VOTA | Fim do teste de Teclado do TE - Sucesso,390
+VOTA | Espaço utilizado na MI [N.N KB],388
+VOTA | Habilitação cancelada durante reconhecimento biométrico,370
+VOTA | Imprimindo relatório [BU] via nº [N],354
+VOTA | Mesário indagado sobre qualidade do Boletim de Urna,354
+GAP | Verificação de assinatura - Etapa [N] - [/dsk/fi/estatico/oNal-ste.vsc] - [SUCESSO],338
+GAP | Verificação de assinatura - Etapa [N] - [/dsk/fi/estatico/oNal-ce.vsc] - [SUCESSO],338
+VOTA | Operador cancelou o registro de mesários,337
+LOGD | Início das operações do logd,333
+GAP | Turno da UE: Nº turno,333
+LOGD | Urna ligada em N/N/N às N:N:N,331
+GAP | Estrutura de diretórios da ME: OK,331
+GAP | Iniciando aplicação - Nº turno,331
+GAP | Versão da aplicação: N.N.N.N - Praia da Barra do Cahy,331
+LOGD | Iniciando registro do log na MI e na ME,331
+GAP | Resultado da verificação da mídia externa estática : N,331
+GAP | Resultado da verificação da mídia externa dinâmica : N,331
+GAP | Fase da UE: Oficial,331
+GAP | Município: N,331
+GAP | Zona Eleitoral: N,331
+GAP | Seção Eleitoral: N,331
+GAP | Lendo o serial da MV presente na urna,331
+GAP | Data e hora da geração da mídia de votação: N/N/N N:N:N,331
+GAP | Mídia de votação gerada pelo usuário: N,331
+GAP | Modo de carga da UE - Votação,330
+GAP | Lendo o serial da MV original a partir da MI,330
+GAP | Impressora OK,329
+GAP | Mídia externa presente,329
+GAP | Tamanho da partição estática de dados da MV: N.N MB,329
+GAP | Tamanho da partição dinâmica de dados da MV: N.N MB,329
+GAP | Verificação de assinatura - Etapa [N] - [/boot/boot/avboot.vst] - [SUCESSO],329
+GAP | Verificação de assinatura - Etapa [N] - [/boot/boot/avbootcfg.vsu] - [SUCESSO],329
+GAP | Verificação de assinatura - Etapa [N] - [/bin/avbin.vst] - [SUCESSO],329
+GAP | Verificação de assinatura - Etapa [N] - [/etc/avetc.vst] - [SUCESSO],329
+GAP | Verificação de assinatura - Etapa [N] - [/etc/RHVoice/avrhvoice.vst] - [SUCESSO],329
+GAP | Verificação de assinatura - Etapa [N] - [/share/RHVoice/languages/Brazilian-Portuguese/avsharerhvoicelang.vst] - [SUCESSO],329
+GAP | Verificação de assinatura - Etapa [N] - [/share/RHVoice/languages/Brazilian-Portuguese/userdict/src/avsharerhvoicelangdict.vst] - [SUCESSO],329
+GAP | Verificação de assinatura - Etapa [N] - [/share/RHVoice/voices/Leticia-FN/avsharerhvoiceleticia.vst] - [SUCESSO],329
+GAP | Verificação de assinatura - Etapa [N] - [/share/RHVoice/voices/Leticia-FN/N/avsharerhvoiceNkhz.vst] - [SUCESSO],329
+GAP | Verificação de assinatura - Etapa [N] - [/lib/modules/avmod.vst] - [SUCESSO],329
+GAP | Verificação de assinatura - Etapa [N] - [/lib/modules/ueN/avmodue.vst] - [SUCESSO],329
+GAP | Verificação de assinatura - Etapa [N] - [/lib/avlib.vst] - [SUCESSO],329
+GAP | Verificação de assinatura - Etapa [N] - [/lib/plugins/generic/avlibqtgeneric.vst] - [SUCESSO],329
+GAP | Verificação de assinatura - Etapa [N] - [/lib/plugins/imageformats/avlibqtimageformats.vst] - [SUCESSO],329
+GAP | Verificação de assinatura - Etapa [N] - [/lib/plugins/platforms/avlibqtplatforms.vst] - [SUCESSO],329
+GAP | Verificação de assinatura - Etapa [N] - [/uenux/lib/avusrlib.vst] - [SUCESSO],329
+GAP | Verificação de assinatura - Etapa [N] - [/uenux/lib/avusrlibue.vst] - [SUCESSO],329
+GAP | Verificação de assinatura - Etapa [N] - [/dsk/fi/estatico/chave/avusrchave.vst] - [SUCESSO],329
+GAP | Verificação de assinatura - Etapa [N] - [/dsk/fi/estatico/N-lo.vsc] - [SUCESSO],329
+GAP | Verificação de assinatura - Etapa [N] - [/dsk/fe/estatico/infomidia.vsc] - [SUCESSO],329
+GAP | Verificação de assinatura - Etapa [N] - [/dsk/fi/estatico/dadoscarga.vsu] - [SUCESSO],329
+GAP | Verificação de assinatura - Etapa [N] - [/dsk/fi/estatico/oN-cp.vsc] - [SUCESSO],329
+GAP | Verificação de assinatura - Etapa [N] - [/dsk/fi/estatico/oNbr-pu.vsc] - [SUCESSO],329
+GAP | Finalização de aplicativo,329
+GAP | Verificação de assinatura - Etapa [N] - [/dsk/fe/estatico/N-lo.vsc] - [SUCESSO],328
+GAP | Iniciando aplicação - ELEIÇÃO OFICIAL PRIMEIRO TURNO - Nº turno,328
+GAP | Solicitação ao INIT para executar o aplicativo - ELEIÇÃO OFICIAL PRIMEIRO TURNO,327
+VOTA | Iniciando aplicação - Nº turno,326
+VOTA | Versão da aplicação: N.N.N.N - Praia da Barra do Cahy,326
+VOTA | Urna pronta para receber votos,326
+VOTA | Operador selecionou: Encerrar votação,325
+VOTA | Operador indagado se todas as pessoas presentes votaram,318
+GAP | Tamanho da MR: N.N MB,317
+VOTA | Todas as pessoas presentes já votaram? SIM,314
+GAP | Bateria interna com carga plena,305
+VOTA | Título digitado para encerramento: N,302
+VOTA | Imprimindo relatório [ZERÉSIMA] via nº [N],300
+VOTA | Imprimindo relatório [RESUMO DA ZERÉSIMA] via nº [N],300
+VOTA | Aguardando confirmação para emissão da zerésima,299
+VOTA | Procedimento de encerramento confirmado,299
+VOTA | Inicio do Encerramento,299
+VOTA | Gerando relatório [BU] [INÍCIO],299
+VOTA | Gerando relatório [BU] [TÉRMINO],299
+VOTA | Gerando relatório [BUJ] [INÍCIO],299
+VOTA | Gerando relatório [BUJ] [TÉRMINO],299
+VOTA | Gerando relatório [BIM] [INÍCIO],299
+VOTA | Gerando relatório [BIM] [TÉRMINO],299
+VOTA | Gerando relatório [ELEITORES HABILITADOS BIOGRAFICAMENTE] [INÍCIO],299
+VOTA | Gerando relatório [ELEITORES HABILITADOS BIOGRAFICAMENTE] [TÉRMINO],299
+VOTA | Mesário indicou qualidade OK para Boletim de Urna,299
+VOTA | Gerando arquivo de resultado [bu.dat] + [Início],299
+VOTA | Gerando arquivo de resultado [bu.dat] + [Término],299
+VOTA | Gerando arquivo de resultado [rdv.dat] + [Início],299
+VOTA | Gerando arquivo de resultado [rdv.dat] + [Término],299
+VOTA | Gerando arquivo de resultado [jufa.dat] + [Início],299
+VOTA | Gerando arquivo de resultado [jufa.dat] + [Término],299
+VOTA | Gerando arquivo de resultado [imgbu.dat] + [Início],299
+VOTA | Gerando arquivo de resultado [imgbu.dat] + [Término],299
+VOTA | Gerando arquivo de resultado [imgze.dat] + [Início],299
+VOTA | Gerando arquivo de resultado [imgze.dat] + [Término],299
+VOTA | Gerando arquivo de resultado [hash.dat] + [Início],299
+VOTA | Gerando arquivo de resultado [hash.dat] + [Término],299
+VOTA | Gerando arquivo de resultado [wsqbio.jez] + [Início],299
+VOTA | Gerando arquivo de resultado [wsqbio.jez] + [Término],299
+VOTA | Gerando arquivo de resultado [wsqman.jez] + [Início],299
+VOTA | Gerando arquivo de resultado [wsqman.jez] + [Término],299
+VOTA | Gerando arquivo de resultado [wsqmes.jez] + [Início],299
+VOTA | Gerando arquivo de resultado [wsqmes.jez] + [Término],299
+VOTA | Gerando arquivo de resultado [mr.ver] + [Início],299
+VOTA | Gerando arquivo de resultado [mr.ver] + [Término],299
+VOTA | Gerando arquivo de resultado [log.jez] + [Início],299
+GAP | Urna operando com rede elétrica,298
+VOTA | Gerando relatório [ZERÉSIMA] [INÍCIO],298
+VOTA | Gerando relatório [ZERÉSIMA] [TÉRMINO],298
+VOTA | Gerando relatório [RESUMO DA ZERÉSIMA] [INÍCIO],298
+VOTA | Gerando relatório [RESUMO DA ZERÉSIMA] [TÉRMINO],298
+VOTA | Registrando mesários antes da votação,296
+VOTA | Registrando mesários após a votação,288
+GAP | Tamanho da partição dinâmica de dados da MI: N.N GB,279
+GAP | Detectada impressora com serial N,279
+VOTA | O eleitor identificado já votou,224
+VOTA | Biometria do mesário N encontrada em eleitores (N),210
+VOTA | Urna operando na bateria interna,204
+VOTA | Urna ligada desconectada da rede CA em [N.NV] e na Bateria Interna com [N.NV/-N.NA],181
+"VOTA | Digital capturada não corresponde a digital do eleitor: Polegar Direito [score N], Polegar Esquerdo [score N], Indicador Direito [score N], Indicador Esquerdo [score N]",168
+VOTA | Dado digitado não confere,162
+VOTA | Carga da [ALIMENTAÇÃO BATERIA INTERNA]: [PLENA],154
+VOTA | Mesário N já registrado,148
+GAP | Verificação de assinatura - Etapa [N] - [/dsk/fi/estatico/oNam-ste.vsc] - [SUCESSO],140
+GAP | Verificação de assinatura - Etapa [N] - [/dsk/fi/estatico/oNam-ce.vsc] - [SUCESSO],140
+VOTA | Dado digitado está incompleto,126
+VOTA | Mesário digitou o título para suspender o eleitor,122
+VOTA | Solicitado ao mesário que conecte o fone de ouvido,122
+VOTA | Solicitado ao mesário que desconecte o fone de ouvido,122
+VOTA | Áudio desativado pelo fim da votação,122
+VOTA | Áudio ativado conforme cadastro,120
+VOTA | Eleitor não está votando,109
+VOTA | Solicitado título eleitoral para suspensão do eleitor,109
+VOTA | Identificador inválido para o tipo informado,108
+GAP | Verificação de assinatura - Etapa [N] - [/dsk/fi/estatico/oNac-ste.vsc] - [SUCESSO],104
+GAP | Verificação de assinatura - Etapa [N] - [/dsk/fi/estatico/oNac-ce.vsc] - [SUCESSO],104
+VOTA | Operador selecionou: Registrar mesários,91
+VOTA | Mesário cancelou entrada dos dados,82
+VOTA | Carga da [ALIMENTAÇÃO BATERIA INTERNA]: [PARCIAL],78
+VOTA | Urna ligada conectada na rede CA em [N.NV] e na Bateria Interna com [N.NV/N.NA],77
+GAP | Verificação de assinatura - Etapa [N] - [/dsk/fi/estatico/oNrr-ste.vsc] - [SUCESSO],76
+GAP | Verificação de assinatura - Etapa [N] - [/dsk/fi/estatico/oNrr-ce.vsc] - [SUCESSO],76
+VOTA | Título N é válido para suspender a votação,69
+VOTA | Eleitor foi suspenso pelo mesário,69
+VOTA | Registrando mesários durante a votação,68
+VOTA | Eleitor impedido - título suspenso,64
+VOTA | Mesário indicou reimprimir Boletim de Urna,55
+VOTA | Título N é inválido para suspender a votação,53
+GAP | Tamanho da partição dinâmica de dados da MI: N.N MB,52
+VOTA | Fone de ouvido conectado,50
+VOTA | Fone de ouvido desconectado,50
+VOTA | Eleitor já justificou,49
+VOTA | Ano de nascimento digitado é diferente do cadastro,45
+VOTA | Eleitor foi suspenso e não confirmou nenhum voto,39
+VOTA | Mesário abortou processo de suspensão,37
+VOTA | Eleitor impedido - título cancelado,37
+VOTA | Operador selecionou: Exibir contadores,35
+VOTA | Urna ligada desconectada da rede CA em [N.NV] e na Bateria Interna com [N.NV/N.NA],34
+VOTA | Atribuido voto nulo por suspensão [Senador],33
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): RALWGERAN - NFNDENBEANBNFN - BN,33
+VOTA | Habilitação cancelada durante a captura de digital do mesário,32
+VOTA | Atribuido voto nulo por suspensão [Presidente],30
+VOTA | Eleitor votou parcialmente e em seguida foi suspenso,30
+GAP | Urna operando com bateria interna,30
+INITJE | Urna desligada pela chave,28
+LOGD | Fechando o arquivo de Log,28
+VOTA | Atribuido voto nulo por suspensão [Governador],25
+VOTA | Urna ligada conectada na rede CA em [N.NV] e na Bateria Externa com [N.NV/NA],24
+GAP | Bateria interna com carga parcial,23
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): RALWGERAN - NFCNFNBNBNEDDN - NBN,23
+VOTA | Mudança do estado da chave: URNA DESLIGADA,21
+VOTA | Desligando a urna,20
+VOTA | Finalização de aplicativo,20
+VOTA | Apresentada tela do reinício da votação,19
+VOTA | Mesário confirmou o reinício da votação,19
+VOTA | Ano de nascimento inválido,18
+VOTA | Votação suspensa,17
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): RALWGERAN - NDNDNFANENDDEN - NEEAN,17
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): RALWGERAN - NCABNDNANCCN - DNFN,16
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): RALWGERAN - NBNFNBNECN - NDBNDNE,16
+VOTA | Urna ligada desconectada da rede CA em [N.NV] e na Bateria Externa com [N.NV/-N.NA],15
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): RALWGERAN - NFNBNENFNEN - ENBN,13
+VOTA | Operador cancelou o encerramento da votação,12
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): ZACNSTDN - NBFCNBAFF - NFN,12
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): RALWGERAN - NFNFNAEBN - EADNDN,12
+GAP | Serial da MV original da urna que está registrada na MI: N,12
+GAP | Serial da MV: N,12
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): ZRRNSTDN - NENFEDDNBNAAEN - NFCDNAN,12
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): RALWGERAN - NCNDNDN - NBNCN,11
+VOTA | Urna operando na bateria externa,11
+VOTA | Carga da [ALIMENTAÇÃO BATERIA EXTERNA]: [PLENA],11
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): ZRRNSTDN - NCNAACNENCNCBNE - NBN,11
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): ZACNSTDN - NFADBNCNDNBDN - EDAAFNBN,10
+VOTA | Suspenso monitoramento de alimentação devido repetição de eventos. [ N ] eventos,10
+VOTA | Mesário indagado se quer imprimir a zerésima,8
+VOTA | Eleitor impedido - eleitor não tem idade mínima para votar,8
+GAP | Serial da MV original da urna que está registrada na MI: NEN,8
+GAP | Serial da MV: NEN,8
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): RALWGERAN - NCNDFNB - DANDNB,8
+VOTA | Eleitor impedido - eleitor convocado pela Justiça Eleitoral,7
+VOTA | Encerramento só pode ser solicitado após as N:N:N horas,7
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): ZRRNSTDN - FNDENFNE - BENENF,7
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): ZACNSTDN - NANANEFCNDNDCCFN - ENBN,6
+GAP | Serial da MV original da urna que está registrada na MI: NFN,6
+GAP | Serial da MV: NFN,6
+VOTA | Operador selecionou: Ativar áudio,6
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): RALWGERAN - NFNDNCENBFFNF - BNCCN,6
+VOTA | Carga da [ALIMENTAÇÃO BATERIA INTERNA]: [CRÍTICA],6
+VOTA | Atribuido voto nulo por suspensão [Deputado Estadual],6
+RED | Início de impressão,6
+RED | Fim de impressão,6
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): RAMWSEVINN - NFNFNDNDEN - NAEN,6
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): RAMWSEVINN - NDENFNEN - DNCNDBE,6
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): RAMWSEVINN - NDNBNCDNCNF - FNCFNDN,6
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): ZACNSTDN - NAENFNDNCFNFDN - FNEN,5
+GAP | Serial da MV original da urna que está registrada na MI: NENAN,5
+GAP | Serial da MV: NENAN,5
+VOTA | Teste de Teclado do TE não executado,5
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): RALWGERAN - NCBNDFNFNEFAAN - FNBEANCN,5
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): RALWGERAN - NFNBNENDNCNENBF - NDNEBF,5
+GAP | Serial da MV original da urna que está registrada na MI: NCN,5
+GAP | Serial da MV: NCN,5
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): ZAMNWKSN - NAFNAAENABDNFN - NDNE,5
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): ZAMNWKSN - NFNANFNADN - NCECNF,5
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): ZACNSTDN - NCBNBNECNEN - ENANA,4
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): ZACNSTDN - CDBADANEEN - NBBN,4
+GAP | Serial da MV original da urna que está registrada na MI: FNCN,4
+GAP | Serial da MV: FNCN,4
+GAP | Serial da MV: NDN,4
+VOTA | Áudio ativado pelo mesário,4
+VOTA | Todas as pessoas presentes já votaram? NÃO,4
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): RAMWSEVINN - NDNFCNACFFDEACFC - NCANDNFN,4
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): RAMWSEVINN - NEBNDNANBNFAN - NENDNEN,4
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): RAMWSEVINN - NFNCNFNBNCC - ENEN,4
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): ZAMNWKSN - NFNFN - NCDN,4
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): ZRRNSTDN - NBNANBNENENCDNBN - NDNADEN,4
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): ZRRNSTDN - DNEANANDNENANDNA - NBN,4
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): ZACNSTDN - NCANEAENCNABD - NDN,3
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): ZACNSTDN - NBNBNENDDNEN - NFCNE,3
+VOTA | Procedimento de encerramento abortado,3
+GAP | Serial da MV original da urna que está registrada na MI: NDN,3
+GAP | Serial da MV original da urna que está registrada na MI: ANAN,3
+GAP | Serial da MV: ANAN,3
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): RALWGERAN - NCBNFDFEB - NAFNF,3
+LOGD | Log interno da urna de contingência validado com sucesso,3
+GAP | Modo de carga da UE - Urna de contingência,3
+GAP | Serial da MV original da urna que está registrada na MI: NENBN,3
+GAP | Serial da MV: NENBN,3
+LOGD | Copiando conteúdo da pasta logs da MI para ME,3
+LOGD | Fim da cópia do conteúdo da pasta logs da MI para ME,3
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): RALWGERAN - NENBNANBNAN - NANDA,3
+GAP | Serial da MV original da urna que está registrada na MI: NAN,3
+GAP | Serial da MV: NAN,3
+GAP | Serial da MV original da urna que está registrada na MI: NFNDAN,3
+GAP | Serial da MV: NFNDAN,3
+VOTA | Eleitor impedido - eleitor é militar em serviço,3
+GAP | Serial da MV original da urna que está registrada na MI: NENFND,3
+GAP | Serial da MV: NENFND,3
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): ZAMNWKSN - NCFCNBNCNBCNEFAFF - N,3
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): RAMWSEVINN - NCNANCNFN - BNDN,3
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): ZAMNWKSN - NENAN - NBNBAEN,3
+GAP | Serial da MV original da urna que está registrada na MI: NDNDBNB,3
+GAP | Serial da MV: NDNDBNB,3
+GAP | Serial da MV original da urna que está registrada na MI: NDNCN,3
+GAP | Serial da MV: NDNCN,3
+GAP | Serial da MV original da urna que está registrada na MI: NFNC,3
+GAP | Serial da MV: NFNC,3
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): ZACNSTDN - NDFFNBBDNANFN - ACNFC,2
+VOTA | Aguardando data e hora para emissão da zerésima,2
+GAP | Serial da MV original da urna que está registrada na MI: NBN,2
+GAP | Serial da MV: NBN,2
+GAP | Serial da MV original da urna que está registrada na MI: NDNAN,2
+GAP | Serial da MV: NDNAN,2
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): ZACNSTDN - NBNBNAFNANBDNFDN - NFFEN,2
+GAP | Serial da MV original da urna que está registrada na MI: NED,2
+GAP | Serial da MV: NED,2
+GAP | Serial da MV original da urna que está registrada na MI: NDNBN,2
+GAP | Serial da MV: NDNBN,2
+GAP | Serial da MV original da urna que está registrada na MI: EDFNFC,2
+GAP | Serial da MV: EDFNFC,2
+GAP | Serial da MV original da urna que está registrada na MI: NFNCNFN,2
+GAP | Serial da MV: NFNCNFN,2
+GAP | Serial da MV original da urna que está registrada na MI: NBADADBB,2
+GAP | Serial da MV: NBADADBB,2
+GAP | Serial da MV original da urna que está registrada na MI: FANAN,2
+GAP | Serial da MV: FANAN,2
+GAP | Serial da MV original da urna que está registrada na MI: NDEND,2
+GAP | Serial da MV: NDEND,2
+GAP | Início do procedimento de contingência,2
+GAP | Sincronismo de mídia - Etapa Início do sincronismo: OK,2
+GAP | Sincronismo de mídia - Etapa Backup do estado geral MI: OK,2
+GAP | Sincronismo de mídia - Etapa Atualização dos diretórios: OK,2
+GAP | Sincronismo de mídia - Etapa Atualização da correspondência: OK,2
+GAP | Sincronismo de mídia - Etapa Atualização do SerialV: OK,2
+GAP | Sincronismo de mídia - Etapa Atualização do ID da UE: OK,2
+GAP | Sincronismo de mídia - Etapa Atualização do modo de carga: OK,2
+GAP | Sincronismo de mídia - Etapa Atualização do backup de estado geral: OK,2
+GAP | Sincronismo de mídia - Etapa Remoção do antigo estado geral da MV: OK,2
+GAP | Sincronismo de mídia - Etapa Cópia do estado geral atualizado da MI para MV: OK,2
+LOGD | Copiando conteúdo da pasta logs da ME para a MI,2
+LOGD | Fim da cópia do conteúdo da pasta logs da ME para a MI,2
+GAP | Sincronismo de mídia - Etapa Atualização de log: OK,2
+GAP | Término do processo de contingência,2
+GAP | Contingência executada com sucesso,2
+GAP | O operador confirmou o reinício da urna,2
+GAP | Reiniciando a urna,2
+GAP | Urna reiniciada a pedido do aplicativo,2
+GAP | Serial da MV original da urna que está registrada na MI: NFNA,2
+GAP | Serial da MV: NFNA,2
+GAP | Serial da MV original da urna que está registrada na MI: NABN,2
+GAP | Serial da MV: NABN,2
+GAP | Serial da MV original da urna que está registrada na MI: NFDN,2
+GAP | Serial da MV: NFDN,2
+GAP | Serial da MV original da urna que está registrada na MI: NFNB,2
+GAP | Serial da MV: NFNB,2
+GAP | Serial da MV original da urna que está registrada na MI: FN,2
+GAP | Serial da MV: FN,2
+LOGD | Adicionando informação do log da ME,2
+LOGD | Arquivo N-N.jez referente ao log da ME,2
+LOGD | Fim da adição de informação do log da ME,2
+RED | Início da recuperação do BU final para impressão,2
+RED | Término da recuperação do BU final para impressão,2
+RED | Início da recuperação do BUJ para impressão,2
+RED | Término da recuperação do BUJ para impressão,2
+RED | Início da recuperação do BIM para impressão,2
+RED | Término da recuperação do BIM para impressão,2
+RED | Início da recuperação do BEHB para impressão,2
+RED | Término da recuperação do BEHB para impressão,2
+RED | Operador indagado sobre qualidade do Boletim de Urna,2
+RED | Imprimindo relatório [BU] via nº [N],2
+GAP | Serial da MV original da urna que está registrada na MI: NBNBNFN,2
+GAP | Serial da MV: NBNBNFN,2
+GAP | Serial da MV original da urna que está registrada na MI: BFNEN,2
+GAP | Serial da MV: BFNEN,2
+VOTA | Não foi possível exibir imagem no LCD do terminal do mesário: Erro (N) exibindo imagem no microterminal.,2
+GAP | Serial da MV original da urna que está registrada na MI: CNBBNFCN,2
+GAP | Serial da MV: CNBBNFCN,2
+GAP | Serial da MV original da urna que está registrada na MI: NECBNE,2
+GAP | Serial da MV: NECBNE,2
+GAP | Serial da MV original da urna que está registrada na MI: NCNE,2
+GAP | Serial da MV: NCNE,2
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): ZAMNWKSN - NBEND - NENDNB,2
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): ZAMNWKSN - NANDNBBNFNFEN - BNDNDN,2
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): ZAMNWKSN - NDNEFNDNFNBCE - NCB,2
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): ZAMNWKSN - NDDENEANFNADEN - CBNAN,2
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): ZAMNWKSN - NENCNFNA - NBNEFC,2
+VOTA | Urna ligada conectada na rede CA em [N.NV] e na Bateria Externa com [N.NV/N.NA],2
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): ZAMNWKSN - NENADBNCNFN - CDNFNC,2
+"VOTA | Captura da digital do eleitor | Falha na captura da digital (N) | Ocorreu um erro durante captura da digital do eleitor. Desligue e ligue a urna. Se o erro persistir, substitua a urna.",2
+VOTA | WHAT: virtual void api::CFingerScanner::StartAcquireImage():N:N - ERROR starting image acquisition - -N,2
+GAP | Serial da MV original da urna que está registrada na MI: NFAFN,2
+GAP | Serial da MV: NFAFN,2
+GAP | Serial da MV original da urna que está registrada na MI: NFFBFNDA,2
+GAP | Serial da MV: NFFBFNDA,2
+GAP | Serial da MV original da urna que está registrada na MI: DNBFFN,2
+GAP | Serial da MV: DNBFFN,2
+GAP | Serial da MV original da urna que está registrada na MI: NBNAN,2
+GAP | Serial da MV: NBNAN,2
+GAP | Serial da MV original da urna que está registrada na MI: NCNC,1
+GAP | Serial da MV: NCNC,1
+GAP | Serial da MV original da urna que está registrada na MI: DNFFANF,1
+GAP | Serial da MV: DNFFANF,1
+GAP | Serial da MV original da urna que está registrada na MI: DNAN,1
+GAP | Serial da MV: DNAN,1
+GAP | Serial da MV original da urna que está registrada na MI: BNFNFN,1
+GAP | Serial da MV: BNFNFN,1
+GAP | Serial da MV original da urna que está registrada na MI: FDCNEB,1
+GAP | Serial da MV: FDCNEB,1
+GAP | Serial da MV original da urna que está registrada na MI: NENEE,1
+GAP | Serial da MV: NENEE,1
+GAP | Serial da MV original da urna que está registrada na MI: NBNDN,1
+GAP | Serial da MV: NBNDN,1
+GAP | Serial da MV original da urna que está registrada na MI: NDFNDEN,1
+GAP | Serial da MV: NDFNDEN,1
+GAP | Serial da MV original da urna que está registrada na MI: ANAFNBN,1
+GAP | Serial da MV: ANAFNBN,1
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): ZACNSTDN - NFNCCNDNABNBN - FFNFENBN,1
+GAP | Serial da MV original da urna que está registrada na MI: DNDDN,1
+GAP | Serial da MV: DNDDN,1
+GAP | Serial da MV original da urna que está registrada na MI: CNENFN,1
+GAP | Serial da MV: CNENFN,1
+GAP | Serial da MV original da urna que está registrada na MI: BNEAN,1
+GAP | Serial da MV: BNEAN,1
+GAP | Serial da MV original da urna que está registrada na MI: NFNENCA,1
+GAP | Serial da MV: NFNENCA,1
+GAP | Serial da MV original da urna que está registrada na MI: CNACN,1
+GAP | Serial da MV: CNACN,1
+GAP | Serial da MV original da urna que está registrada na MI: BNBNDNEN,1
+GAP | Serial da MV: BNBNDNEN,1
+GAP | Serial da MV original da urna que está registrada na MI: NFNAN,1
+GAP | Serial da MV: NFNAN,1
+GAP | Serial da MV original da urna que está registrada na MI: NFNAFB,1
+GAP | Serial da MV: NFNAFB,1
+GAP | Serial da MV original da urna que está registrada na MI: NEAN,1
+GAP | Serial da MV: NEAN,1
+GAP | Serial da MV original da urna que está registrada na MI: NCANDA,1
+GAP | Serial da MV: NCANDA,1
+GAP | Serial da MV original da urna que está registrada na MI: EN,1
+GAP | Serial da MV: EN,1
+GAP | Serial da MV original da urna que está registrada na MI: NDAN,1
+GAP | Serial da MV: NDAN,1
+GAP | Serial da MV original da urna que está registrada na MI: NCNCN,1
+GAP | Serial da MV: NCNCN,1
+VOTA | Eleitor impedido - solicitou voto em trânsito,1
+GAP | Serial da MV original da urna que está registrada na MI: NACN,1
+GAP | Serial da MV: NACN,1
+GAP | Serial da MV original da urna que está registrada na MI: EBNFBN,1
+GAP | Serial da MV: EBNFBN,1
+GAP | Serial da MV original da urna que está registrada na MI: NFCN,1
+GAP | Serial da MV: NFCN,1
+GAP | Serial da MV original da urna que está registrada na MI: NENC,1
+GAP | Serial da MV: NENC,1
+GAP | Serial da MV original da urna que está registrada na MI: CANFN,1
+GAP | Serial da MV: CANFN,1
+VOTA | Limite de mesários registrados atingido. Limite máximo: N,1
+GAP | Serial da MV original da urna que está registrada na MI: NDDB,1
+GAP | Serial da MV: NDDB,1
+GAP | Serial da MV original da urna que está registrada na MI: NDANA,1
+GAP | Serial da MV: NDANA,1
+GAP | Serial da MV original da urna que está registrada na MI: EDNFNE,1
+GAP | Serial da MV: EDNFNE,1
+GAP | Serial da MV original da urna que está registrada na MI: NFNCN,1
+GAP | Serial da MV: NFNCN,1
+GAP | Serial da MV original da urna que está registrada na MI: EENCN,1
+GAP | Serial da MV: EENCN,1
+GAP | Serial da MV original da urna que está registrada na MI: ENFNE,1
+GAP | Serial da MV: ENFNE,1
+GAP | Serial da MV original da urna que está registrada na MI: NEDNB,1
+GAP | Serial da MV: NEDNB,1
+GAP | Serial da MV original da urna que está registrada na MI: AECNEBF,1
+GAP | Serial da MV: AECNEBF,1
+GAP | Serial da MV original da urna que está registrada na MI: NDNAENFE,1
+GAP | Serial da MV: NDNAENFE,1
+GAP | Serial da MV original da urna que está registrada na MI: NAFN,1
+GAP | Serial da MV: NAFN,1
+GAP | Serial da MV original da urna que está registrada na MI: CNENEN,1
+GAP | Serial da MV: CNENEN,1
+GAP | Serial da MV original da urna que está registrada na MI: NANDN,1
+GAP | Serial da MV: NANDN,1
+GAP | Serial da MV original da urna que está registrada na MI: ANDN,1
+GAP | Serial da MV: ANDN,1
+GAP | Serial da MV original da urna que está registrada na MI: BNANAN,1
+GAP | Serial da MV: BNANAN,1
+GAP | Serial da MV original da urna que está registrada na MI: NAAN,1
+GAP | Serial da MV: NAAN,1
+GAP | Serial da MV original da urna que está registrada na MI: DNEN,1
+GAP | Serial da MV: DNEN,1
+GAP | Serial da MV original da urna que está registrada na MI: NFNANE,1
+GAP | Serial da MV: NFNANE,1
+GAP | Serial da MV original da urna que está registrada na MI: ADANAN,1
+GAP | Serial da MV: ADANAN,1
+GAP | Serial da MV original da urna que está registrada na MI: CNANB,1
+GAP | Serial da MV: CNANB,1
+GAP | Serial da MV original da urna que está registrada na MI: NFEEEDN,1
+GAP | Serial da MV: NFEEEDN,1
+GAP | Serial da MV original da urna que está registrada na MI: NFFENF,1
+GAP | Serial da MV: NFFENF,1
+GAP | Serial da MV original da urna que está registrada na MI: NBAE,1
+GAP | Serial da MV: NBAE,1
+GAP | Serial da MV original da urna que está registrada na MI: NDANDN,1
+GAP | Serial da MV: NDANDN,1
+GAP | Serial da MV original da urna que está registrada na MI: NAACDB,1
+GAP | Serial da MV: NAACDB,1
+GAP | Serial da MV original da urna que está registrada na MI: NCFN,1
+GAP | Serial da MV: NCFN,1
+GAP | Serial da MV original da urna que está registrada na MI: ENCN,1
+GAP | Serial da MV: ENCN,1
+LOGD | Identificado arquivo de log corrompido na ME,1
+LOGD | Arquivo NME.jez referente ao log corrompido da ME,1
+VOTA | Erro ao tentar configurar LED do MT: Setando leds para cabine livre - N,1
+GAP | Serial da MV original da urna que está registrada na MI: NBADNDDB,1
+GAP | Serial da MV: NBADNDDB,1
+GAP | Serial da MV original da urna que está registrada na MI: NENBNDB,1
+GAP | Serial da MV: NENBNDB,1
+GAP | Serial da MV original da urna que está registrada na MI: NBNFENF,1
+GAP | Serial da MV: NBNFENF,1
+GAP | Serial da MV original da urna que está registrada na MI: ANEBNE,1
+GAP | Serial da MV: ANEBNE,1
+GAP | Serial da MV original da urna que está registrada na MI: NENFN,1
+GAP | Serial da MV: NENFN,1
+GAP | Serial da MV original da urna que está registrada na MI: BCNFNENE,1
+GAP | Serial da MV: BCNFNENE,1
+GAP | Serial da MV original da urna que está registrada na MI: ANDNCN,1
+GAP | Serial da MV: ANDNCN,1
+GAP | Serial da MV original da urna que está registrada na MI: NFNFNAN,1
+GAP | Serial da MV: NFNFNAN,1
+GAP | Serial da MV original da urna que está registrada na MI: ENCNFENE,1
+GAP | Serial da MV: ENCNFENE,1
+GAP | Serial da MV original da urna que está registrada na MI: ANBN,1
+GAP | Serial da MV: ANBN,1
+GAP | Serial da MV original da urna que está registrada na MI: NFNCNA,1
+GAP | Serial da MV: NFNCNA,1
+GAP | Serial da MV original da urna que está registrada na MI: BNFE,1
+GAP | Serial da MV: BNFE,1
+GAP | Serial da MV original da urna que está registrada na MI: DCEN,1
+GAP | Serial da MV: DCEN,1
+GAP | Serial da MV original da urna que está registrada na MI: ABDNCCN,1
+GAP | Serial da MV: ABDNCCN,1
+GAP | Serial da MV original da urna que está registrada na MI: CNCEECA,1
+GAP | Serial da MV: CNCEECA,1
+GAP | Serial da MV original da urna que está registrada na MI: NECNBN,1
+GAP | Serial da MV: NECNBN,1
+GAP | Serial da MV original da urna que está registrada na MI: EBBNCNAN,1
+GAP | Serial da MV: EBBNCNAN,1
+GAP | Serial da MV original da urna que está registrada na MI: NFNBNFN,1
+GAP | Serial da MV: NFNBNFN,1
+GAP | Serial da MV original da urna que está registrada na MI: DNBDND,1
+GAP | Serial da MV: DNBDND,1
+GAP | Serial da MV original da urna que está registrada na MI: NANENDFB,1
+GAP | Serial da MV: NANENDFB,1
+GAP | Serial da MV original da urna que está registrada na MI: CNANBDN,1
+GAP | Serial da MV: CNANBDN,1
+GAP | Serial da MV original da urna que está registrada na MI: BDFNCN,1
+GAP | Serial da MV: BDFNCN,1
+GAP | Serial da MV original da urna que está registrada na MI: NENCFN,1
+GAP | Serial da MV: NENCFN,1
+GAP | Serial da MV original da urna que está registrada na MI: NDEN,1
+GAP | Serial da MV: NDEN,1
+GAP | Serial da MV original da urna que está registrada na MI: CNFE,1
+GAP | Serial da MV: CNFE,1
+GAP | Serial da MV original da urna que está registrada na MI: NCNDNB,1
+GAP | Serial da MV: NCNDNB,1
+GAP | Serial da MV original da urna que está registrada na MI: NDNFN,1
+GAP | Serial da MV: NDNFN,1
+GAP | Serial da MV original da urna que está registrada na MI: NCAENB,1
+GAP | Serial da MV: NCAENB,1
+GAP | Serial da MV original da urna que está registrada na MI: NA,1
+GAP | Serial da MV: NA,1
+GAP | Serial da MV original da urna que está registrada na MI: NFNE,1
+GAP | Serial da MV: NFNE,1
+GAP | Serial da MV original da urna que está registrada na MI: CDNAN,1
+GAP | Serial da MV: CDNAN,1
+GAP | Serial da MV original da urna que está registrada na MI: NBNFNBN,1
+GAP | Serial da MV: NBNFNBN,1
+GAP | Serial da MV original da urna que está registrada na MI: NBNCECN,1
+GAP | Serial da MV: NBNCECN,1
+GAP | Serial da MV original da urna que está registrada na MI: NENCNC,1
+GAP | Serial da MV: NENCNC,1
+GAP | Serial da MV original da urna que está registrada na MI: FDNENF,1
+GAP | Serial da MV: FDNENF,1
+GAP | Serial da MV original da urna que está registrada na MI: NBADFENA,1
+GAP | Serial da MV: NBADFENA,1
+GAP | Dados carregados da geração de MR,1
+GAP | Número de série da MR: NDNDN,1
+"GAP | Aplicativos presentes na MR [SA,RED,VPP,ATUE]",1
+GAP | MR gerada pelo computador: RALWGERAN,1
+GAP | Data e hora da geração da MR: N/N/N às N:N:N,1
+GAP | MR gerada pelo usuário: N,1
+GAP | Iniciando aplicação RECUPERADOR DE DADOS,1
+GAP | Solicita código de liberação de aplicativo,1
+GAP | Código de liberação aceito,1
+GAP | Solicitação ao INIT para executar o aplicativo - RECUPERADOR DE DADOS,1
+RED | Iniciando aplicação - Nº turno,1
+RED | Obtendo informações da UE,1
+RED | Identificada uma urna de contingência,1
+RED | Recuperando urna de votação com resultado não gerado,1
+RED | Detectada MV em Urna de contingência,1
+RED | Usuário escolheu a opção Imprimir um BU,1
+RED | Imprimindo relatório [BU],1
+RED | Usuário escolheu a opção Copiar resultados para Totalizador,1
+RED | Operador indicou qualidade OK para Boletim de Urna,1
+RED | Imprimindo relatório [BUJ],1
+RED | Imprimindo relatório [BIM],1
+RED | Imprimindo relatório [BEHB],1
+RED | Gerando arquivo de resultado [bu.dat] + [Início],1
+RED | Gerando arquivo de resultado [bu.dat] + [Término],1
+RED | Gerando arquivo de resultado [jufa.dat] + [Início],1
+RED | Gerando arquivo de resultado [jufa.dat] + [Término],1
+RED | Gerando arquivo de resultado [rdv.dat] + [Início],1
+RED | Gerando arquivo de resultado [rdv.dat] + [Término],1
+RED | Gerando arquivo de resultado [imgbu.dat] + [Início],1
+RED | Gerando arquivo de resultado [imgbu.dat] + [Término],1
+RED | Gerando arquivo de resultado [imgze.dat] + [Início],1
+RED | Gerando arquivo de resultado [imgze.dat] + [Término],1
+RED | Gerando arquivo de resultado [hash.dat] + [Início],1
+RED | Gerando arquivo de resultado [hash.dat] + [Término],1
+RED | Gerando arquivo de resultado [wsqbio.jez] + [Início],1
+RED | Gerando arquivo de resultado [wsqbio.jez] + [Término],1
+RED | Gerando arquivo de resultado [wsqman.jez] + [Início],1
+RED | Gerando arquivo de resultado [wsqman.jez] + [Término],1
+RED | Gerando arquivo de resultado [wsqmes.jez] + [Início],1
+RED | Gerando arquivo de resultado [wsqmes.jez] + [Término],1
+RED | Gerando arquivo de resultado [mr.ver] + [Início],1
+RED | Gerando arquivo de resultado [mr.ver] + [Término],1
+RED | Gerando arquivo de resultado [log.jez] + [Início],1
+GAP | Serial da MV original da urna que está registrada na MI: NEDNF,1
+GAP | Serial da MV: NEDNF,1
+GAP | Serial da MV original da urna que está registrada na MI: NDBFFA,1
+GAP | Serial da MV: NDBFFA,1
+GAP | Serial da MV original da urna que está registrada na MI: NADNCB,1
+GAP | Serial da MV: NADNCB,1
+GAP | Serial da MV original da urna que está registrada na MI: AENAFEN,1
+GAP | Serial da MV: AENAFEN,1
+GAP | Serial da MV original da urna que está registrada na MI: ENDN,1
+GAP | Serial da MV: ENDN,1
+GAP | Serial da MV original da urna que está registrada na MI: DNCN,1
+GAP | Serial da MV: DNCN,1
+GAP | Serial da MV original da urna que está registrada na MI: NFENFNB,1
+GAP | Serial da MV: NFENFNB,1
+GAP | Serial da MV original da urna que está registrada na MI: DDBNAB,1
+GAP | Serial da MV: DDBNAB,1
+GAP | Serial da MV original da urna que está registrada na MI: NCDNAA,1
+GAP | Serial da MV: NCDNAA,1
+GAP | Serial da MV original da urna que está registrada na MI: NANEBDFN,1
+GAP | Serial da MV: NANEBDFN,1
+GAP | Serial da MV original da urna que está registrada na MI: NENFNF,1
+GAP | Serial da MV: NENFNF,1
+GAP | Serial da MV original da urna que está registrada na MI: ANAEN,1
+GAP | Serial da MV: ANAEN,1
+GAP | Serial da MV original da urna que está registrada na MI: NDDDNB,1
+GAP | Serial da MV: NDDDNB,1
+GAP | Serial da MV original da urna que está registrada na MI: ANBNBN,1
+GAP | Serial da MV: ANBNBN,1
+GAP | Serial da MV original da urna que está registrada na MI: NFNFN,1
+GAP | Serial da MV: NFNFN,1
+GAP | Serial da MV original da urna que está registrada na MI: CNDNBD,1
+GAP | Serial da MV: CNDNBD,1
+GAP | Serial da MV original da urna que está registrada na MI: NCCENAB,1
+GAP | Serial da MV: NCCENAB,1
+GAP | Serial da MV original da urna que está registrada na MI: ENENBDN,1
+GAP | Serial da MV: ENENBDN,1
+GAP | Serial da MV original da urna que está registrada na MI: ANEN,1
+GAP | Serial da MV: ANEN,1
+GAP | Serial da MV original da urna que está registrada na MI: NBNEN,1
+GAP | Serial da MV: NBNEN,1
+GAP | Serial da MV original da urna que está registrada na MI: NCND,1
+GAP | Serial da MV: NCND,1
+GAP | Serial da MV original da urna que está registrada na MI: NDBFN,1
+GAP | Serial da MV: NDBFN,1
+GAP | Serial da MV original da urna que está registrada na MI: CNCN,1
+GAP | Serial da MV: CNCN,1
+GAP | Serial da MV original da urna que está registrada na MI: ABBNAN,1
+GAP | Serial da MV: ABBNAN,1
+GAP | Serial da MV original da urna que está registrada na MI: NBNCN,1
+GAP | Serial da MV: NBNCN,1
+GAP | Serial da MV original da urna que está registrada na MI: FBNFN,1
+GAP | Serial da MV: FBNFN,1
+GAP | Serial da MV original da urna que está registrada na MI: NEDCBDND,1
+GAP | Serial da MV: NEDCBDND,1
+GAP | Serial da MV original da urna que está registrada na MI: EBFNEN,1
+GAP | Serial da MV: EBFNEN,1
+GAP | Serial da MV original da urna que está registrada na MI: NBFABDNA,1
+GAP | Serial da MV: NBFABDNA,1
+GAP | Serial da MV original da urna que está registrada na MI: DANCBNA,1
+GAP | Serial da MV: DANCBNA,1
+GAP | Serial da MV original da urna que está registrada na MI: ANACNFFD,1
+GAP | Serial da MV: ANACNFFD,1
+GAP | Bateria interna ausente,1
+GAP | Serial da MV original da urna que está registrada na MI: NDNACCNF,1
+GAP | Serial da MV: NDNACCNF,1
+GAP | Serial da MV original da urna que está registrada na MI: FAEFNAEN,1
+GAP | Serial da MV: FAEFNAEN,1
+GAP | Serial da MV original da urna que está registrada na MI: NAENA,1
+GAP | Serial da MV: NAENA,1
+GAP | Serial da MV original da urna que está registrada na MI: NAENAAN,1
+GAP | Serial da MV: NAENAAN,1
+GAP | Serial da MV original da urna que está registrada na MI: BNANDN,1
+GAP | Serial da MV: BNANDN,1
+GAP | Serial da MV original da urna que está registrada na MI: NFNEN,1
+GAP | Serial da MV: NFNEN,1
+GAP | Serial da MV original da urna que está registrada na MI: NENDA,1
+GAP | Serial da MV: NENDA,1
+GAP | Serial da MV original da urna que está registrada na MI: BNFN,1
+GAP | Serial da MV: BNFN,1
+GAP | Serial da MV original da urna que está registrada na MI: ENBNEN,1
+GAP | Serial da MV: ENBNEN,1
+GAP | Serial da MV original da urna que está registrada na MI: CN,1
+GAP | Serial da MV: CN,1
+GAP | Serial da MV original da urna que está registrada na MI: NDNC,1
+GAP | Serial da MV: NDNC,1
+GAP | Serial da MV original da urna que está registrada na MI: NDBBDN,1
+GAP | Serial da MV: NDBBDN,1
+GAP | Serial da MV original da urna que está registrada na MI: FENCACN,1
+GAP | Serial da MV: FENCACN,1
+GAP | Serial da MV original da urna que está registrada na MI: CNABNA,1
+GAP | Serial da MV: CNABNA,1
+GAP | Serial da MV original da urna que está registrada na MI: NECNBAN,1
+GAP | Serial da MV: NECNBAN,1
+GAP | Serial da MV original da urna que está registrada na MI: CNENANE,1
+GAP | Serial da MV: CNENANE,1
+GAP | Serial da MV original da urna que está registrada na MI: NACNENDN,1
+GAP | Serial da MV: NACNENDN,1
+GAP | Serial da MV original da urna que está registrada na MI: NBNF,1
+GAP | Serial da MV: NBNF,1
+GAP | Serial da MV original da urna que está registrada na MI: NANBNCN,1
+GAP | Serial da MV: NANBNCN,1
+GAP | Serial da MV original da urna que está registrada na MI: ENCCBN,1
+GAP | Serial da MV: ENCCBN,1
+GAP | Serial da MV original da urna que está registrada na MI: ANCNDN,1
+GAP | Serial da MV: ANCNDN,1
+GAP | Serial da MV original da urna que está registrada na MI: FDNE,1
+GAP | Serial da MV: FDNE,1
+GAP | Serial da MV original da urna que está registrada na MI: NANBN,1
+GAP | Serial da MV: NANBN,1
+GAP | Serial da MV original da urna que está registrada na MI: ENCNEN,1
+GAP | Serial da MV: ENCNEN,1
+GAP | Serial da MV original da urna que está registrada na MI: FENEN,1
+GAP | Serial da MV: FENEN,1
+GAP | Serial da MV original da urna que está registrada na MI: ENCADN,1
+GAP | Serial da MV: ENCADN,1
+GAP | Serial da MV original da urna que está registrada na MI: NFAC,1
+GAP | Serial da MV: NFAC,1
+GAP | Serial da MV original da urna que está registrada na MI: CNFFNFD,1
+GAP | Serial da MV: CNFFNFD,1
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): ZAMNWKSN - NDNBDNBNCCBC - NENDN,1
+GAP | Serial da MV original da urna que está registrada na MI: NFFNEBF,1
+GAP | Serial da MV: NFFNEBF,1
+GAP | Serial da MV original da urna que está registrada na MI: NDNFNDE,1
+GAP | Serial da MV: NDNFNDE,1
+GAP | Serial da MV original da urna que está registrada na MI: AFNDN,1
+GAP | Serial da MV: AFNDN,1
+GAP | Serial da MV original da urna que está registrada na MI: NEBN,1
+GAP | Serial da MV: NEBN,1
+GAP | Serial da MV original da urna que está registrada na MI: FNBEN,1
+GAP | Serial da MV: FNBEN,1
+GAP | Serial da MV original da urna que está registrada na MI: AANFNEA,1
+GAP | Serial da MV: AANFNEA,1
+GAP | Serial da MV original da urna que está registrada na MI: ANFNA,1
+GAP | Serial da MV: ANFNA,1
+GAP | Serial da MV original da urna que está registrada na MI: NCNCBAN,1
+GAP | Serial da MV: NCNCBAN,1
+GAP | Serial da MV original da urna que está registrada na MI: FENDN,1
+GAP | Serial da MV: FENDN,1
+GAP | Serial da MV original da urna que está registrada na MI: NBNDNF,1
+GAP | Serial da MV: NBNDNF,1
+GAP | Serial da MV original da urna que está registrada na MI: AANCNF,1
+GAP | Serial da MV: AANCNF,1
+GAP | Serial da MV original da urna que está registrada na MI: CNEN,1
+GAP | Serial da MV: CNEN,1
+GAP | Serial da MV original da urna que está registrada na MI: NDB,1
+GAP | Serial da MV: NDB,1
+GAP | Serial da MV original da urna que está registrada na MI: NFAN,1
+GAP | Serial da MV: NFAN,1
+GAP | Serial da MV original da urna que está registrada na MI: NECENE,1
+GAP | Serial da MV: NECENE,1
+GAP | Serial da MV original da urna que está registrada na MI: ENCEN,1
+GAP | Serial da MV: ENCEN,1
+GAP | Serial da MV original da urna que está registrada na MI: FNEN,1
+GAP | Serial da MV: FNEN,1
+GAP | Serial da MV original da urna que está registrada na MI: ND,1
+GAP | Serial da MV: ND,1
+GAP | Serial da MV original da urna que está registrada na MI: NEFBN,1
+GAP | Serial da MV: NEFBN,1
+GAP | Serial da MV original da urna que está registrada na MI: BNCN,1
+GAP | Serial da MV: BNCN,1
+GAP | Serial da MV original da urna que está registrada na MI: AENDBN,1
+GAP | Serial da MV: AENDBN,1
+GAP | Serial da MV original da urna que está registrada na MI: NEANB,1
+GAP | Serial da MV: NEANB,1
+GAP | Serial da MV original da urna que está registrada na MI: CANCNAN,1
+GAP | Serial da MV: CANCNAN,1
+GAP | Serial da MV original da urna que está registrada na MI: DNBCN,1
+GAP | Serial da MV: DNBCN,1
+GAP | Serial da MV original da urna que está registrada na MI: BNBN,1
+GAP | Serial da MV: BNBN,1
+GAP | Serial da MV original da urna que está registrada na MI: FBNCN,1
+GAP | Serial da MV: FBNCN,1
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): ZAMNWKSN - NDN - NBNFNAN,1
+GAP | Serial da MV original da urna que está registrada na MI: BCNA,1
+GAP | Serial da MV: BCNA,1
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): ZAMNWKSN - ND - NBNDNBN,1
+GAP | Urna operando com bateria externa,1
+VOTA | Carga da [ALIMENTAÇÃO BATERIA EXTERNA]: [PARCIAL],1
+VOTA | Carga da [ALIMENTAÇÃO BATERIA EXTERNA]: [CRÍTICA],1
+GAP | Serial da MV original da urna que está registrada na MI: NENECNB,1
+GAP | Serial da MV: NENECNB,1
+GAP | Serial da MV original da urna que está registrada na MI: NBNFN,1
+GAP | Serial da MV: NBNFN,1
+GAP | Serial da MV original da urna que está registrada na MI: BNFNENA,1
+GAP | Serial da MV: BNFNENA,1
+GAP | Serial da MV original da urna que está registrada na MI: NANDNDAN,1
+GAP | Serial da MV: NANDNDAN,1
+GAP | Serial da MV original da urna que está registrada na MI: DN,1
+GAP | Serial da MV: DN,1
+GAP | Serial da MV original da urna que está registrada na MI: NDCNF,1
+GAP | Serial da MV: NDCNF,1
+GAP | Serial da MV original da urna que está registrada na MI: NEC,1
+GAP | Serial da MV: NEC,1
+GAP | Serial da MV original da urna que está registrada na MI: NFANE,1
+GAP | Serial da MV: NFANE,1
+GAP | Serial da MV original da urna que está registrada na MI: NDNCNE,1
+GAP | Serial da MV: NDNCNE,1
+GAP | Serial da MV original da urna que está registrada na MI: NADNAN,1
+GAP | Serial da MV: NADNAN,1
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): ZAMNWKSN - NDNBNANDDN - CNCND,1
+GAP | Serial da MV original da urna que está registrada na MI: NAENB,1
+GAP | Serial da MV: NAENB,1
+GAP | Serial da MV original da urna que está registrada na MI: FCNENAN,1
+GAP | Serial da MV: FCNENAN,1
+GAP | Serial da MV original da urna que está registrada na MI: NF,1
+GAP | Serial da MV: NF,1
+GAP | Serial da MV original da urna que está registrada na MI: BENDANDN,1
+GAP | Serial da MV: BENDANDN,1
+GAP | Mídia de votação gerada pelo computador (nome - tpm - instalação): ZAMNWKSN - NAFNEFA - NCNCN,1
+GAP | Serial da MV original da urna que está registrada na MI: CENEDCN,1
+GAP | Serial da MV: CENEDCN,1
+GAP | Serial da MV original da urna que está registrada na MI: DNFBNEN,1
+GAP | Serial da MV: DNFBNEN,1
+GAP | Serial da MV original da urna que está registrada na MI: FANCN,1
+GAP | Serial da MV: FANCN,1
+GAP | Serial da MV original da urna que está registrada na MI: EENBN,1
+GAP | Serial da MV: EENBN,1
+GAP | Serial da MV original da urna que está registrada na MI: BNEDCN,1
+GAP | Serial da MV: BNEDCN,1
+GAP | Serial da MV original da urna que está registrada na MI: NDBEN,1
+GAP | Serial da MV: NDBEN,1
+GAP | Serial da MV original da urna que está registrada na MI: ENCNDF,1
+GAP | Serial da MV: ENCNDF,1
+GAP | Serial da MV original da urna que está registrada na MI: EANFDNA,1
+GAP | Serial da MV: EANFDNA,1
+GAP | Serial da MV original da urna que está registrada na MI: NENE,1
+GAP | Serial da MV: NENE,1
+GAP | Serial da MV original da urna que está registrada na MI: NFFCN,1
+GAP | Serial da MV: NFFCN,1
+GAP | Serial da MV original da urna que está registrada na MI: NCENE,1
+GAP | Serial da MV: NCENE,1
+GAP | Serial da MV original da urna que está registrada na MI: NBAN,1
+GAP | Serial da MV: NBAN,1
+GAP | A chave pública (N.pub) foi encontrada na mídia de resultado,1
+GAP | O número de série da chave pública (N.pub): NENEN,1
+GAP | Iniciando aplicação VERIFICAÇÃO DE ASSINATURAS,1
+GAP | Solicitação ao INIT para executar o aplicativo - VERIFICAÇÃO DE ASSINATURAS,1
+GAP | Serial da MV original da urna que está registrada na MI: CNFBFCN,1
+GAP | Serial da MV: CNFBFCN,1
+GAP | Serial da MV original da urna que está registrada na MI: NDNCNED,1
+GAP | Serial da MV: NDNCNED,1
+"VOTA | Erro inesperado durante a votação | O voto do eleitor NÃO foi registrado (N) | Ocorreu um erro enquanto o eleitor registrava suas escolhas. Desligue e ligue a urna. Se o erro persistir, tire uma foto dessa tela em que apareça o QR Code ao lado e envie",1
+VOTA | WHAT: virtual void api::CInputKbd::OpenSession():N:N - msteOpenSession ERROR -N,1
+GAP | Serial da MV original da urna que está registrada na MI: BNCNCN,1
+GAP | Serial da MV: BNCNCN,1
+GAP | Serial da MV original da urna que está registrada na MI: NEEDN,1
+GAP | Serial da MV: NEEDN,1
+GAP | Serial da MV original da urna que está registrada na MI: ADDNEN,1
+GAP | Serial da MV: ADDNEN,1
+GAP | Serial da MV original da urna que está registrada na MI: NFBCNF,1
+GAP | Serial da MV: NFBCNF,1
+GAP | Serial da MV original da urna que está registrada na MI: NFNCDN,1
+GAP | Serial da MV: NFNCDN,1
+GAP | Serial da MV original da urna que está registrada na MI: NDNDFN,1
+GAP | Serial da MV: NDNDFN,1
+GAP | Serial da MV original da urna que está registrada na MI: EEN,1
+GAP | Serial da MV: EEN,1
+VOTA | Eleitor não tem idade mínima,1
+GAP | Serial da MV original da urna que está registrada na MI: NDNANCF,1
+GAP | Serial da MV: NDNANCF,1
+GAP | Serial da MV original da urna que está registrada na MI: BEBEFN,1
+GAP | Serial da MV: BEBEFN,1
+GAP | Serial da MV original da urna que está registrada na MI: FBFNFFNC,1
+GAP | Serial da MV: FBFNFFNC,1
+GAP | Serial da MV original da urna que está registrada na MI: NFNBN,1
+GAP | Serial da MV: NFNBN,1
+GAP | Serial da MV original da urna que está registrada na MI: NCNENB,1
+GAP | Serial da MV: NCNENB,1
+GAP | Serial da MV original da urna que está registrada na MI: NCCB,1
+GAP | Serial da MV: NCCB,1
+GAP | Serial da MV original da urna que está registrada na MI: NEFNEFN,1
+GAP | Serial da MV: NEFNEFN,1
