@@ -20,7 +20,7 @@ Este arquivo é roteador. Se um fato aqui contradisser o arquivo dono, o dono ga
 - Mudar critério sem registrar na §9 do pré-registro, dizendo se foi antes ou depois de ver resultado.
 - Dar número que não saiu de script, ou número de terceiro sem recálculo.
 - Baixar em massa sem teto de requisições (o TSE responde 429; um coletor só, até ~75 req/s).
-- Mudar a visibilidade do repositório: **privado** por decisão do autor (13/out/2026).
+- Mudar a visibilidade do repositório: **público** por decisão do autor (13/out/2026), sem licença.
 
 ## Dados
 

@@ -17,8 +17,11 @@
 
 ## ⬜ Decisões do autor
 
-Protocolar os pedidos (se o público engajar) · fazer o convite público · tornar o repositório público · apagar `dados/` depois do vídeo (ver `docs/DADOS_LOCAIS.md`).
+Protocolar os pedidos (se o público engajar) · fazer o convite público · apagar `dados/` **só depois do vídeo 8 pronto** (ver `docs/DADOS_LOCAIS.md`). ✅ Repositório **público** desde 13/out/2026 (decisão do autor), sem licença.
 
 ## Como refazer tudo
+
+Guia completo, com a dependência do projeto `apuracao-eleicoes-2026`: [`docs/REPLICAR.md`](docs/REPLICAR.md).
+
 
 `python -m alegacoes.coleta_logs todas 75` → `python ferramentas/baixar-bweb.py` → `python -m alegacoes.derivar_logs todas` → `python -m alegacoes.bweb 2014,2018,2020,2022,2024,2026 todas` → `python -m alegacoes.secoes todas` → `python ferramentas/analise-2-series-e-contas.py` → `python ferramentas/analise-1-mesarios-e-17h.py` → `python ferramentas/analise-3-exploratoria.py` → `python ferramentas/analise-4-locais.py` → `python ferramentas/analise-5-sem-digital.py` → `python ferramentas/graficos.py` → `python ferramentas/dados-locais.py`. Validação: `python ferramentas/validacao-independente.py 3000` e `python ferramentas/leitura-manual.py`.

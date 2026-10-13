@@ -11,5 +11,7 @@ Cada alegação termina num veredito (confirmado, indício forte, compatível co
 | [`docs/FONTES_DE_DADOS.md`](docs/FONTES_DE_DADOS.md) | de onde vem cada dado |
 | [`docs/DADOS_LOCAIS.md`](docs/DADOS_LOCAIS.md) | o que ocupa disco, como baixar de novo e o que pode ser apagado |
 | [`RELATORIO.md`](RELATORIO.md) e [`RESUMO_SIMPLES.md`](RESUMO_SIMPLES.md) | os resultados: um veredito por alegação, o teto do pior caso e o que fecharia cada uma |
+| [`docs/REPLICAR.md`](docs/REPLICAR.md) | **como refazer tudo do zero**, ou conferir os resultados sem baixar nada |
+| [`docs/PEDIDOS_LAI.md`](docs/PEDIDOS_LAI.md) e [`docs/CONVITE_PUBLICO.md`](docs/CONVITE_PUBLICO.md) | os pedidos a quem tem os documentos que fechariam cada pergunta, e o teste que qualquer eleitor que faltou pode fazer |
 
 **Quem fez.** O plano e a análise foram feitos por uma IA (Claude) sob a direção do autor do repositório, que aprovou o plano antes da execução. Nenhum identificador de mesário, título, CPF ou nome que aparece nos logs das urnas é publicado.
