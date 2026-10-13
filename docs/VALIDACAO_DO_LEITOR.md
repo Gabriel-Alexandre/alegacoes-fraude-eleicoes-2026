@@ -46,3 +46,5 @@ O boletim de urna de 2026 traz `QT_ELEI_BIOM_SEM_HABILITACAO`: *"eleitores com b
 | AM | 120.263 | 120.448 | −185 (0,15%) |
 
 *(A comparação seção a seção, nas 28 UFs, entra na rodada final.)*
+
+**V4, ensaio com 13 UFs (AC, AL, AM, AP, BA, CE, DF, ES, GO, MA, MG, MS, RR):** nas **189.195 seções com log completo, o número de liberações manuais com digital de mesário é idêntico, seção a seção, ao contador oficial** (3.080.090 nos dois). O leitor reproduz exatamente um número que nunca leu.

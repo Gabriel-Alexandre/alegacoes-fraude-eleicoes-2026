@@ -123,6 +123,26 @@ def t19(d: pd.DataFrame, y: str, x1: str, x2: str, escopo: str) -> dict:
             "b2": mod.params[1], "ep2": mod.bse[1], "p2": mod.pvalues[1]}
 
 
+def perfil_por_hora(d: pd.DataFrame) -> pd.DataFrame:
+    """Votos e liberacoes por hora de Brasilia, por regiao e tipo (so secoes com cobertura de 100%)."""
+    ok = d.loc[d["cob100"], ["uf", "mun", "zona", "secao", "desl_horas"]]
+    partes = []
+    for p in sorted((RAIZ / "dados" / "derivados" / "logs").glob("*-eleitores.parquet")):
+        uf = p.name.split("-")[0].upper()
+        if uf == "ZZ":
+            continue
+        ev = pd.read_parquet(p, columns=["mun_cd", "zona", "secao", "t_s", "tipo", "hab_s"])
+        for c in ("mun_cd", "zona", "secao"):
+            ev[c] = ev[c].astype(str).astype(int)
+        ev = ev.rename(columns={"mun_cd": "mun"}).merge(ok[ok["uf"] == uf], on=["mun", "zona", "secao"])
+        ev["hora"] = ((ev["t_s"] + ev["desl_horas"].astype(int) * 3600) // 3600).clip(upper=23)
+        ev["dur"] = (ev["t_s"] - ev["hab_s"]).where(ev["hab_s"] >= 0)
+        ev["regiao"] = REGIAO.get(uf, "?")
+        ev["uf"] = uf
+        partes.append(ev.groupby(["regiao", "uf", "hora", "tipo"], observed=True).agg(votos=("t_s", "size"), dur_mediana=("dur", "median")).reset_index())
+    return pd.concat(partes, ignore_index=True)
+
+
 def main() -> None:
     SAI.mkdir(exist_ok=True)
     d = carregar()
@@ -259,6 +279,9 @@ def main() -> None:
     tard.to_csv(SAI / "a2_t24_secoes_depois_das_19h.csv", index=False)
     resumo["a2"]["t24_secoes_depois_19h"] = len(tard)
     resumo["a2"]["t24_secoes_depois_21h"] = int((tard["ultimo_voto_b"] >= 21 * 3600).sum())
+
+    ph = perfil_por_hora(d)
+    ph.to_csv(SAI / "a2_perfil_por_hora.csv", index=False)
 
     p = SAI / "RESUMO.json"
     tudo = json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}

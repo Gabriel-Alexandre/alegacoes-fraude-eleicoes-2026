@@ -107,8 +107,88 @@ def g09_curva() -> None:
     salvar(fig, "g09_curva_nao_e_lisa")
 
 
+def g02_perfil_por_hora() -> None:
+    ph = pd.read_csv(RES / "a2_perfil_por_hora.csv")
+    fig, ax = figura("Hora a hora: quantos votaram e quantos foram liberados à mão", "Brasil, horário de Brasília. Barras: votos. Linha: % liberados sem digital")
+    tot = ph.groupby("hora")["votos"].sum()
+    man = ph[ph["tipo"].isin(["manual_mes", "manual_sem"])].groupby("hora")["votos"].sum().reindex(tot.index, fill_value=0)
+    ax.bar(tot.index, tot / 1e6, color="#9aa7b4")
+    ax.set_ylabel("milhões de votos")
+    ax.set_xlabel("hora")
+    ax2 = ax.twinx()
+    ax2.plot(tot.index, 100 * man / tot, color=COR["destaque"], lw=5, marker="o")
+    ax2.set_ylabel("% liberados sem digital", color=COR["destaque"])
+    ax2.spines["top"].set_visible(False)
+    ax.axvline(16.5, color="#333", ls="--")
+    ax.text(16.6, ax.get_ylim()[1] * 0.95, "17h", fontsize=22)
+    salvar(fig, "g02_perfil_por_hora")
+
+
+def g03_duracao() -> None:
+    a = pd.read_csv(RES / "a2_votos_depois_das_17h.csv").set_index("escopo").loc[["Brasil"] + REGIOES]
+    fig, ax = figura("Quanto tempo cada eleitor levou para votar", "Mediana, em segundos, da liberação ao voto computado. A alegação de 2022: \"de 1min40 para 32 s depois das 17h\"")
+    x = np.arange(len(a))
+    ax.bar(x - 0.27, a["dur_mediana_antes17"], 0.27, color="#9aa7b4", label="antes das 17h")
+    ax.bar(x, a["dur_mediana_bio_apos17"], 0.27, color="#5b7da3", label="depois das 17h, com digital")
+    ax.bar(x + 0.27, a["dur_mediana_manual_apos17"], 0.27, color=COR["destaque"], label="depois das 17h, sem digital")
+    ax.set_xticks(x, a.index)
+    ax.set_ylabel("segundos")
+    ax.legend(frameon=False, fontsize=18)
+    salvar(fig, "g03_duracao_do_voto")
+
+
+def g06_dose_resposta() -> None:
+    t = pd.read_csv(RES / "a1_t19_dose_resposta.csv")
+    t = t[t["y"].isin(["p_lula", "p_flavio"]) & t["escopo"].isin(["Brasil"] + REGIOES + ["CE"])]
+    fig, ax = figura("Seções com mais liberações à mão depois das 17h votaram diferente?", "Efeito estimado dentro da mesma escola (pontos percentuais por 10 pontos de liberação manual). Barras: intervalo de 95%")
+    esc = ["Brasil"] + REGIOES + ["CE"]
+    for k, (y, cor, nome) in enumerate([("p_lula", COR["Lula"], "Lula"), ("p_flavio", COR["Flavio"], "Flávio")]):
+        for j, (mod, mk) in enumerate([("apos17", "o"), ("placebo_12_13", "s")]):
+            s = t[(t["y"] == y) & (t["modelo"] == mod)].set_index("escopo").reindex(esc)
+            pos = np.arange(len(esc)) + (k * 2 + j - 1.5) * 0.15
+            ax.errorbar(pos, 10 * s["b1"], yerr=10 * 1.96 * s["ep1"], fmt=mk, color=cor, alpha=1 if mod == "apos17" else 0.45, ms=12, lw=3,
+                        label=f"{nome}, {'depois das 17h' if mod == 'apos17' else 'placebo 12h-13h'}")
+    ax.axhline(0, color="#999")
+    ax.set_xticks(range(len(esc)), [e.replace("CE", "Ceará") for e in esc])
+    ax.set_ylabel("pontos percentuais")
+    ax.legend(frameon=False, fontsize=16, ncol=2)
+    salvar(fig, "g06_dose_resposta")
+
+
+def g12_ja_votou() -> None:
+    t = pd.read_csv(RES / "a1_t112_eleitor_ja_votou.csv")
+    t = t[t["escopo"].isin(REGIOES + ["CE"])]
+    fig, ax = figura("“O eleitor identificado já votou”", "Episódios por mil votos, nas seções que Lula venceu e nas que Flávio venceu")
+    esc = REGIOES + ["CE"]
+    x = np.arange(len(esc))
+    for k, (lado, cor) in enumerate([("Lula", COR["Lula"]), ("Flavio", COR["Flavio"])]):
+        s = t[t["secoes_vencidas_por"] == lado].set_index("escopo").reindex(esc)
+        ax.bar(x + (k - 0.5) * 0.4, s["por_mil_votos"], 0.4, color=cor, label=f"seções vencidas por {'Flávio' if lado == 'Flavio' else lado}")
+    ax.set_xticks(x, [e.replace("CE", "Ceará") for e in esc])
+    ax.set_ylabel("episódios por mil votos")
+    ax.legend(frameon=False)
+    salvar(fig, "g12_eleitor_ja_votou")
+
+
+def g13_teto() -> None:
+    r = json.loads((RES / "RESUMO.json").read_text(encoding="utf-8"))["a1"]["teto"]
+    fig, ax = figura("O teto do pior caso", "Mesmo que todo voto suspeito fosse fraude e fosse de um lado só, quanto ele moveria?")
+    itens = [("Votos liberados à mão depois das 17h\nnas seções fora do padrão (S5)", r["manuais_apos17_marcadas_S5"], COR["destaque"]),
+             ("Todos os votos liberados à mão\ndepois das 17h no país", r["manuais_apos17_brasil"], "#c9a227"),
+             ("Diferença entre Flávio e Lula", r["diferenca_flavio_lula"], COR["neutro"]),
+             ("Votos que Flávio precisaria tirar\ndo adversário para chegar a 50%", r["votos_para_flavio_chegar_a_50"], "#333")]
+    y = np.arange(len(itens))[::-1]
+    for yy, (rot, v, cor) in zip(y, itens):
+        ax.barh(yy, v / 1e6, color=cor)
+        ax.text(v / 1e6 + 0.05, yy, br(v / 1e6, 2) + " mi", va="center", fontsize=22)
+    ax.set_yticks(y, [i[0] for i in itens], fontsize=18)
+    ax.set_xlabel("milhões de votos")
+    fig.subplots_adjust(left=0.33)
+    salvar(fig, "g13_teto_do_pior_caso")
+
+
 def main() -> None:
-    for f in (g01_manual_antes_depois, g04_serie_contador, g08_a_conta, g09_curva):
+    for f in (g01_manual_antes_depois, g02_perfil_por_hora, g03_duracao, g04_serie_contador, g06_dose_resposta, g08_a_conta, g09_curva, g12_ja_votou, g13_teto):
         try:
             f()
             print("ok", f.__name__)
