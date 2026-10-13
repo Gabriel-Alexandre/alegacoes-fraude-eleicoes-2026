@@ -55,7 +55,7 @@ def derivar_uf(uf: str) -> dict:
             continue
         urnas.append({"uf": sg, "mun_cd": mun, "zona": zona, "secao": secao, "hash": h, "id_urna": lt.id_urna,
                       "linhas_dia": lt.linhas_dia, "primeiro_evento_s": lt.primeiro_evento_s, "pronta_s": lt.pronta_s,
-                      "encerrar_s": lt.encerrar_s, "n_votos": len(lt.eleitores), "contingencia": lt.contingencia, "tipos_txt": json.dumps(lt.tipos_txt, ensure_ascii=False)})
+                      "encerrar_s": lt.encerrar_s, "n_votos": len(lt.eleitores), "contingencia": lt.contingencia, "ja_votou_s": json.dumps(lt.ja_votou), "impedido": lt.impedido, "tipos_txt": json.dumps(lt.tipos_txt, ensure_ascii=False)})
         for e in lt.eleitores:
             eleitores.append((sg, mun, zona, secao, h) + e)
     con.close()

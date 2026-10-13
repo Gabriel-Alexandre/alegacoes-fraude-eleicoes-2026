@@ -68,6 +68,8 @@ class Leitura:
     linhas_dia: int = 0
     tipos_txt: dict = field(default_factory=dict)
     contingencia: bool = False
+    ja_votou: list = field(default_factory=list)  # hora (s) de cada "O eleitor identificado ja votou"
+    impedido: int = 0
 
 
 def classificar(t: Tentativa) -> str:
@@ -136,6 +138,10 @@ def ler_log(linhas: list[str], chave: bytes) -> Leitura:
             t.suspensao += 1
         elif "sem atividade" in msg or "suspen" in msg:
             t.suspensao += 1
+        elif msg.startswith("O eleitor identificado j"):
+            out.ja_votou.append(s)
+        elif msg.startswith("Eleitor impedido"):
+            out.impedido += 1
         elif msg.startswith("O voto do eleitor foi computado"):
             out.eleitores.append((s, classificar(t), t.nao_confere, t.mesario, t.tentativas_digital, t.ident, t.suspensao, t.habilitado, t.suspenso_mesario, t.hab_s))
             t = Tentativa()

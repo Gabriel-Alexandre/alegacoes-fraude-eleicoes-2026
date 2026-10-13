@@ -128,7 +128,26 @@ def construir(uf: str) -> dict:
         d.update({"mun": mun, "zona": zona, "secao": secao})
         linhas.append(d)
     m = pd.DataFrame(linhas)
-    cont = urnas.groupby(["mun", "zona", "secao"]).agg(contingencia=("contingencia", "max"), n_logs=("hash", "size")).reset_index()
+    urnas["jv"] = urnas["ja_votou_s"].map(json.loads)
+    urnas["desl"] = urnas["mun"].map(desl).fillna(0).astype(int)
+
+    def episodios(lst, d):
+        """'ja votou' em sequencia (menos de 10 min entre um e outro) conta como um episodio."""
+        t = sorted(x + d * 3600 for x in lst)
+        ep, ult = [], None
+        for x in t:
+            if ult is None or x - ult > 600:
+                ep.append(x)
+            ult = x
+        return ep
+
+    urnas["ep"] = [episodios(a, d) for a, d in zip(urnas["jv"], urnas["desl"])]
+    urnas["n_ja_votou"] = urnas["jv"].map(len)
+    urnas["n_ep_ja_votou"] = urnas["ep"].map(len)
+    urnas["n_ep_ja_votou_apos17"] = urnas["ep"].map(lambda e: sum(1 for x in e if x >= H17))
+    cont = urnas.groupby(["mun", "zona", "secao"]).agg(contingencia=("contingencia", "max"), n_logs=("hash", "size"),
+                                                       n_ja_votou=("n_ja_votou", "sum"), n_ep_ja_votou=("n_ep_ja_votou", "sum"),
+                                                       n_ep_ja_votou_apos17=("n_ep_ja_votou_apos17", "sum"), n_impedido=("impedido", "sum")).reset_index()
     m = m.merge(cont, on=["mun", "zona", "secao"], how="left")
     m = m.merge(sec, on=["mun", "zona", "secao"], how="left")
     m = m.merge(votos_presidente(uf), on=["mun", "zona", "secao"], how="left")
