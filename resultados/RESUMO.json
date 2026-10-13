@@ -1,0 +1,988 @@
+{
+ "t15": {
+  "serie": [
+   {
+    "ano": 2018,
+    "escopo": "Brasil",
+    "secoes": 453706,
+    "comparecimento": 117161794,
+    "biom_nh": 8166806,
+    "taxa_nh_pct": 6.970536828754944
+   },
+   {
+    "ano": 2018,
+    "escopo": "Centro-Oeste",
+    "secoes": 34503,
+    "comparecimento": 8487904,
+    "biom_nh": 792499,
+    "taxa_nh_pct": 9.336804469042063
+   },
+   {
+    "ano": 2018,
+    "escopo": "Nordeste",
+    "secoes": 126066,
+    "comparecimento": 31856311,
+    "biom_nh": 3078895,
+    "taxa_nh_pct": 9.66494519720127
+   },
+   {
+    "ano": 2018,
+    "escopo": "Norte",
+    "secoes": 37044,
+    "comparecimento": 9263019,
+    "biom_nh": 648331,
+    "taxa_nh_pct": 6.999132788133113
+   },
+   {
+    "ano": 2018,
+    "escopo": "Sudeste",
+    "secoes": 187120,
+    "comparecimento": 49849269,
+    "biom_nh": 1636226,
+    "taxa_nh_pct": 3.2823470290005656
+   },
+   {
+    "ano": 2018,
+    "escopo": "Sul",
+    "secoes": 68973,
+    "comparecimento": 17705291,
+    "biom_nh": 2010855,
+    "taxa_nh_pct": 11.357367693081125
+   },
+   {
+    "ano": 2018,
+    "escopo": "CE",
+    "secoes": 21449,
+    "comparecimento": 5244712,
+    "biom_nh": 467922,
+    "taxa_nh_pct": 8.921786363102493
+   },
+   {
+    "ano": 2020,
+    "escopo": "Brasil",
+    "secoes": 399551,
+    "comparecimento": 113458164,
+    "biom_nh": -2,
+    "taxa_nh_pct": -1.76276429080943e-06
+   },
+   {
+    "ano": 2020,
+    "escopo": "Centro-Oeste",
+    "secoes": 25552,
+    "comparecimento": 6703627,
+    "biom_nh": 0,
+    "taxa_nh_pct": 0.0
+   },
+   {
+    "ano": 2020,
+    "escopo": "Nordeste",
+    "secoes": 111905,
+    "comparecimento": 33112527,
+    "biom_nh": -2,
+    "taxa_nh_pct": -6.040010175001141e-06
+   },
+   {
+    "ano": 2020,
+    "escopo": "Norte",
+    "secoes": 34374,
+    "comparecimento": 9221375,
+    "biom_nh": 0,
+    "taxa_nh_pct": 0.0
+   },
+   {
+    "ano": 2020,
+    "escopo": "Sudeste",
+    "secoes": 169582,
+    "comparecimento": 47696606,
+    "biom_nh": 0,
+    "taxa_nh_pct": 0.0
+   },
+   {
+    "ano": 2020,
+    "escopo": "Sul",
+    "secoes": 58138,
+    "comparecimento": 16724029,
+    "biom_nh": 0,
+    "taxa_nh_pct": 0.0
+   },
+   {
+    "ano": 2020,
+    "escopo": "CE",
+    "secoes": 18773,
+    "comparecimento": 5455549,
+    "biom_nh": 0,
+    "taxa_nh_pct": 0.0
+   },
+   {
+    "ano": 2022,
+    "escopo": "Brasil",
+    "secoes": 471010,
+    "comparecimento": 123378340,
+    "biom_nh": 10780979,
+    "taxa_nh_pct": 8.738145609675085
+   },
+   {
+    "ano": 2022,
+    "escopo": "Centro-Oeste",
+    "secoes": 35932,
+    "comparecimento": 9079826,
+    "biom_nh": 781271,
+    "taxa_nh_pct": 8.6044710548418
+   },
+   {
+    "ano": 2022,
+    "escopo": "Nordeste",
+    "secoes": 132578,
+    "comparecimento": 34096680,
+    "biom_nh": 3316264,
+    "taxa_nh_pct": 9.72606130567551
+   },
+   {
+    "ano": 2022,
+    "escopo": "Norte",
+    "secoes": 38975,
+    "comparecimento": 9925507,
+    "biom_nh": 743166,
+    "taxa_nh_pct": 7.487436158173079
+   },
+   {
+    "ano": 2022,
+    "escopo": "Sudeste",
+    "secoes": 194361,
+    "comparecimento": 52070294,
+    "biom_nh": 4046402,
+    "taxa_nh_pct": 7.771037359612373
+   },
+   {
+    "ano": 2022,
+    "escopo": "Sul",
+    "secoes": 69164,
+    "comparecimento": 18206033,
+    "biom_nh": 1893876,
+    "taxa_nh_pct": 10.402463842617445
+   },
+   {
+    "ano": 2022,
+    "escopo": "CE",
+    "secoes": 22796,
+    "comparecimento": 5628610,
+    "biom_nh": 546045,
+    "taxa_nh_pct": 9.701240626016014
+   },
+   {
+    "ano": 2024,
+    "escopo": "Brasil",
+    "secoes": 478026,
+    "comparecimento": 122115611,
+    "biom_nh": 7925852,
+    "taxa_nh_pct": 6.49044944794159
+   },
+   {
+    "ano": 2024,
+    "escopo": "Centro-Oeste",
+    "secoes": 30239,
+    "comparecimento": 7433302,
+    "biom_nh": 514936,
+    "taxa_nh_pct": 6.927419335310202
+   },
+   {
+    "ano": 2024,
+    "escopo": "Nordeste",
+    "secoes": 136148,
+    "comparecimento": 36137867,
+    "biom_nh": 2390346,
+    "taxa_nh_pct": 6.614518781642536
+   },
+   {
+    "ano": 2024,
+    "escopo": "Norte",
+    "secoes": 41578,
+    "comparecimento": 10567311,
+    "biom_nh": 515099,
+    "taxa_nh_pct": 4.874456708996262
+   },
+   {
+    "ano": 2024,
+    "escopo": "Sudeste",
+    "secoes": 199301,
+    "comparecimento": 50275481,
+    "biom_nh": 3214152,
+    "taxa_nh_pct": 6.393080555509752
+   },
+   {
+    "ano": 2024,
+    "escopo": "Sul",
+    "secoes": 70760,
+    "comparecimento": 17701650,
+    "biom_nh": 1291319,
+    "taxa_nh_pct": 7.294907536868032
+   },
+   {
+    "ano": 2024,
+    "escopo": "CE",
+    "secoes": 23357,
+    "comparecimento": 5949962,
+    "biom_nh": 392850,
+    "taxa_nh_pct": 6.602563176033729
+   },
+   {
+    "ano": 2026,
+    "escopo": "Brasil",
+    "secoes": 497897,
+    "comparecimento": 124779506,
+    "biom_nh": 8342249,
+    "taxa_nh_pct": 6.685592263844994
+   },
+   {
+    "ano": 2026,
+    "escopo": "Centro-Oeste",
+    "secoes": 38048,
+    "comparecimento": 9375275,
+    "biom_nh": 617166,
+    "taxa_nh_pct": 6.582910901280229
+   },
+   {
+    "ano": 2026,
+    "escopo": "Nordeste",
+    "secoes": 140828,
+    "comparecimento": 35475079,
+    "biom_nh": 2462103,
+    "taxa_nh_pct": 6.940373550683284
+   },
+   {
+    "ano": 2026,
+    "escopo": "Norte",
+    "secoes": 43769,
+    "comparecimento": 10545951,
+    "biom_nh": 565262,
+    "taxa_nh_pct": 5.359990768020826
+   },
+   {
+    "ano": 2026,
+    "escopo": "Sudeste",
+    "secoes": 203237,
+    "comparecimento": 51219619,
+    "biom_nh": 3283372,
+    "taxa_nh_pct": 6.410379585213236
+   },
+   {
+    "ano": 2026,
+    "escopo": "Sul",
+    "secoes": 72015,
+    "comparecimento": 18163582,
+    "biom_nh": 1414346,
+    "taxa_nh_pct": 7.786712995267123
+   },
+   {
+    "ano": 2026,
+    "escopo": "CE",
+    "secoes": 23765,
+    "comparecimento": 5905922,
+    "biom_nh": 406838,
+    "taxa_nh_pct": 6.888644990570482
+   }
+  ],
+  "deltas": [
+   {
+    "escopo": "Brasil",
+    "2018": 6.970536828754944,
+    "2020": -1.76276429080943e-06,
+    "2022": 8.738145609675085,
+    "2024": 6.49044944794159,
+    "2026": 6.685592263844994,
+    "delta_pres_2022_2026": -2.0525533458300913,
+    "delta_2022_2024": -2.2476961617334945,
+    "delta_2024_2026": 0.1951428159034032,
+    "delta_pres_2018_2022": 1.767608780920141
+   },
+   {
+    "escopo": "CE",
+    "2018": 8.921786363102493,
+    "2020": 0.0,
+    "2022": 9.701240626016014,
+    "2024": 6.602563176033729,
+    "2026": 6.888644990570482,
+    "delta_pres_2022_2026": -2.8125956354455326,
+    "delta_2022_2024": -3.0986774499822856,
+    "delta_2024_2026": 0.28608181453675297,
+    "delta_pres_2018_2022": 0.7794542629135215
+   },
+   {
+    "escopo": "Centro-Oeste",
+    "2018": 9.336804469042063,
+    "2020": 0.0,
+    "2022": 8.6044710548418,
+    "2024": 6.927419335310202,
+    "2026": 6.582910901280229,
+    "delta_pres_2022_2026": -2.0215601535615715,
+    "delta_2022_2024": -1.6770517195315984,
+    "delta_2024_2026": -0.3445084340299731,
+    "delta_pres_2018_2022": -0.7323334142002622
+   },
+   {
+    "escopo": "Nordeste",
+    "2018": 9.66494519720127,
+    "2020": -6.040010175001141e-06,
+    "2022": 9.72606130567551,
+    "2024": 6.614518781642536,
+    "2026": 6.940373550683284,
+    "delta_pres_2022_2026": -2.7856877549922254,
+    "delta_2022_2024": -3.1115425240329735,
+    "delta_2024_2026": 0.32585476904074806,
+    "delta_pres_2018_2022": 0.06111610847423954
+   },
+   {
+    "escopo": "Norte",
+    "2018": 6.999132788133113,
+    "2020": 0.0,
+    "2022": 7.487436158173079,
+    "2024": 4.874456708996262,
+    "2026": 5.359990768020826,
+    "delta_pres_2022_2026": -2.1274453901522525,
+    "delta_2022_2024": -2.612979449176817,
+    "delta_2024_2026": 0.48553405902456426,
+    "delta_pres_2018_2022": 0.48830337003996593
+   },
+   {
+    "escopo": "Sudeste",
+    "2018": 3.2823470290005656,
+    "2020": 0.0,
+    "2022": 7.771037359612373,
+    "2024": 6.393080555509752,
+    "2026": 6.410379585213236,
+    "delta_pres_2022_2026": -1.3606577743991375,
+    "delta_2022_2024": -1.3779568041026211,
+    "delta_2024_2026": 0.017299029703483626,
+    "delta_pres_2018_2022": 4.488690330611808
+   },
+   {
+    "escopo": "Sul",
+    "2018": 11.357367693081125,
+    "2020": 0.0,
+    "2022": 10.402463842617445,
+    "2024": 7.294907536868032,
+    "2026": 7.786712995267123,
+    "delta_pres_2022_2026": -2.6157508473503226,
+    "delta_2022_2024": -3.107556305749413,
+    "delta_2024_2026": 0.4918054583990905,
+    "delta_pres_2018_2022": -0.9549038504636798
+   }
+  ]
+ },
+ "t15_2": [
+  {
+   "escopo": "Brasil",
+   "y": "d_pt",
+   "n": 438615,
+   "coef_d_nh": -0.018551511528575395,
+   "ep": 0.004140075571488889,
+   "p": 7.43081650613006e-06
+  },
+  {
+   "escopo": "Brasil",
+   "y": "d_dir",
+   "n": 438615,
+   "coef_d_nh": 0.008650696983875463,
+   "ep": 0.0016125763139913638,
+   "p": 8.116501871606856e-08
+  },
+  {
+   "escopo": "Centro-Oeste",
+   "y": "d_pt",
+   "n": 34627,
+   "coef_d_nh": -0.003617976754312465,
+   "ep": 0.012125790965430537,
+   "p": 0.7654204999314523
+  },
+  {
+   "escopo": "Centro-Oeste",
+   "y": "d_dir",
+   "n": 34627,
+   "coef_d_nh": 0.0026907229118760135,
+   "ep": 0.006952426740034194,
+   "p": 0.6987419644216442
+  },
+  {
+   "escopo": "Nordeste",
+   "y": "d_pt",
+   "n": 120452,
+   "coef_d_nh": -0.009762228976178537,
+   "ep": 0.002445276156816652,
+   "p": 6.544082424001077e-05
+  },
+  {
+   "escopo": "Nordeste",
+   "y": "d_dir",
+   "n": 120452,
+   "coef_d_nh": 0.0042381715552716245,
+   "ep": 0.0019157748426529273,
+   "p": 0.02694944411119377
+  },
+  {
+   "escopo": "Norte",
+   "y": "d_pt",
+   "n": 34478,
+   "coef_d_nh": -0.01234233818320852,
+   "ep": 0.005292682280693296,
+   "p": 0.019702648305338803
+  },
+  {
+   "escopo": "Norte",
+   "y": "d_dir",
+   "n": 34478,
+   "coef_d_nh": 0.006019639485507522,
+   "ep": 0.00520345801106185,
+   "p": 0.2473321509183739
+  },
+  {
+   "escopo": "Sudeste",
+   "y": "d_pt",
+   "n": 186135,
+   "coef_d_nh": -0.027071533303265935,
+   "ep": 0.008406188432252161,
+   "p": 0.001279988783968745
+  },
+  {
+   "escopo": "Sudeste",
+   "y": "d_dir",
+   "n": 186135,
+   "coef_d_nh": 0.010681794033038275,
+   "ep": 0.0030068894841171986,
+   "p": 0.00038167626673106747
+  },
+  {
+   "escopo": "Sul",
+   "y": "d_pt",
+   "n": 62923,
+   "coef_d_nh": -0.025631884947112094,
+   "ep": 0.0037712015435330667,
+   "p": 1.0701128175064987e-11
+  },
+  {
+   "escopo": "Sul",
+   "y": "d_dir",
+   "n": 62923,
+   "coef_d_nh": 0.017883398193416375,
+   "ep": 0.0033814666830947653,
+   "p": 1.2322153604060276e-07
+  },
+  {
+   "escopo": "CE",
+   "y": "d_pt",
+   "n": 20075,
+   "coef_d_nh": -0.016889300028082564,
+   "ep": 0.007390659117421528,
+   "p": 0.022299788314034806
+  },
+  {
+   "escopo": "CE",
+   "y": "d_dir",
+   "n": 20075,
+   "coef_d_nh": 0.010031128585437228,
+   "ep": 0.0057836304956539976,
+   "p": 0.08284713956786063
+  }
+ ],
+ "t15_3": [
+  {
+   "escopo": "Brasil",
+   "municipios": 5570,
+   "coef_virada_sobre_d_nh": -0.35988706277918214,
+   "ep": 0.06578532868859768,
+   "p": 4.484436248083504e-08,
+   "virada_media_pond": 0.07394844948528743,
+   "d_nh_medio_pond": -0.021091563103498846
+  },
+  {
+   "escopo": "Centro-Oeste",
+   "municipios": 467,
+   "coef_virada_sobre_d_nh": -0.6484958056777402,
+   "ep": 0.2939553196438655,
+   "p": 0.02737676653834639,
+   "virada_media_pond": 0.07822783197041573,
+   "d_nh_medio_pond": -0.020691601827361156
+  },
+  {
+   "escopo": "Nordeste",
+   "municipios": 1794,
+   "coef_virada_sobre_d_nh": -0.27868873867388294,
+   "ep": 0.04957107294217861,
+   "p": 1.8875559206970322e-08,
+   "virada_media_pond": 0.07071167145820231,
+   "d_nh_medio_pond": -0.028765793041844328
+  },
+  {
+   "escopo": "Norte",
+   "municipios": 450,
+   "coef_virada_sobre_d_nh": -0.49472276831038,
+   "ep": 0.08233182074121569,
+   "p": 1.867990084827296e-09,
+   "virada_media_pond": 0.06251037664311992,
+   "d_nh_medio_pond": -0.02183592367723449
+  },
+  {
+   "escopo": "Sudeste",
+   "municipios": 1668,
+   "coef_virada_sobre_d_nh": -0.1550799439902894,
+   "ep": 0.044551044032508126,
+   "p": 0.0004996392846781512,
+   "virada_media_pond": 0.06654888919607312,
+   "d_nh_medio_pond": -0.013830310608014509
+  },
+  {
+   "escopo": "Sul",
+   "municipios": 1191,
+   "coef_virada_sobre_d_nh": -0.6814851574546605,
+   "ep": 0.10597464067018615,
+   "p": 1.2706467408574957e-10,
+   "virada_media_pond": 0.10510597259786586,
+   "d_nh_medio_pond": -0.026198473801983972
+  }
+ ],
+ "t3_1": [
+  {
+   "escopo": "Brasil",
+   "municipios": 5570,
+   "comparec_2014": 0.7962204071230394,
+   "comparec_2018": 0.7954261130917321,
+   "comparec_2022": 0.7895036785922149,
+   "comparec_2026": 0.7941249637581935,
+   "fora_da_historia_acima": 26,
+   "fora_da_historia_abaixo": 11,
+   "d_pt_medio_nos_acima": -0.06152492117096391,
+   "d_pt_medio_geral": -0.05917867716901353
+  },
+  {
+   "escopo": "Centro-Oeste",
+   "municipios": 467,
+   "comparec_2014": 0.7765132772554841,
+   "comparec_2018": 0.7730600292825769,
+   "comparec_2022": 0.7657088727502368,
+   "comparec_2026": 0.7673716012084593,
+   "fora_da_historia_acima": 0,
+   "fora_da_historia_abaixo": 3,
+   "d_pt_medio_nos_acima": null,
+   "d_pt_medio_geral": -0.08736234687374998
+  },
+  {
+   "escopo": "Nordeste",
+   "municipios": 1794,
+   "comparec_2014": 0.7759078156325474,
+   "comparec_2018": 0.8086297023986586,
+   "comparec_2022": 0.7945872408876795,
+   "comparec_2026": 0.8102855844990525,
+   "fora_da_historia_acima": 5,
+   "fora_da_historia_abaixo": 5,
+   "d_pt_medio_nos_acima": -0.06282614591882026,
+   "d_pt_medio_geral": -0.04193576893343964
+  },
+  {
+   "escopo": "Norte",
+   "municipios": 450,
+   "comparec_2014": 0.7668184066413782,
+   "comparec_2018": 0.7885189701384199,
+   "comparec_2022": 0.788032886547331,
+   "comparec_2026": 0.8000013090880507,
+   "fora_da_historia_acima": 1,
+   "fora_da_historia_abaixo": 1,
+   "d_pt_medio_nos_acima": -0.10609087617216273,
+   "d_pt_medio_geral": -0.052685099504263824
+  },
+  {
+   "escopo": "Sudeste",
+   "municipios": 1668,
+   "comparec_2014": 0.7917956679057792,
+   "comparec_2018": 0.7652254540829119,
+   "comparec_2022": 0.7747045460268537,
+   "comparec_2026": 0.7746680946587108,
+   "fora_da_historia_acima": 13,
+   "fora_da_historia_abaixo": 0,
+   "d_pt_medio_nos_acima": -0.05584345489008298,
+   "d_pt_medio_geral": -0.05710944354203088
+  },
+  {
+   "escopo": "Sul",
+   "municipios": 1191,
+   "comparec_2014": 0.8438818565400844,
+   "comparec_2018": 0.844082108021546,
+   "comparec_2022": 0.8225777458206004,
+   "comparec_2026": 0.8130120481927711,
+   "fora_da_historia_acima": 7,
+   "fora_da_historia_abaixo": 2,
+   "d_pt_medio_nos_acima": -0.06478020444395981,
+   "d_pt_medio_geral": -0.0794520569015509
+  },
+  {
+   "escopo": "CE",
+   "municipios": 184,
+   "comparec_2014": 0.7693226022328277,
+   "comparec_2018": 0.8314238509717233,
+   "comparec_2022": 0.8178682649718598,
+   "comparec_2026": 0.8323719688836323,
+   "fora_da_historia_acima": 1,
+   "fora_da_historia_abaixo": 0,
+   "d_pt_medio_nos_acima": -0.08292667160211842,
+   "d_pt_medio_geral": -0.04227707056648325
+  }
+ ],
+ "t3_2": {
+  "por_ano": [
+   {
+    "ano": 2018,
+    "escopo": "Brasil",
+    "secoes": 453355,
+    "comparec_95": 932,
+    "pct": 0.20557840985541134
+   },
+   {
+    "ano": 2018,
+    "escopo": "Centro-Oeste",
+    "secoes": 34496,
+    "comparec_95": 16,
+    "pct": 0.0463821892393321
+   },
+   {
+    "ano": 2018,
+    "escopo": "Nordeste",
+    "secoes": 125988,
+    "comparec_95": 298,
+    "pct": 0.23653046321871923
+   },
+   {
+    "ano": 2018,
+    "escopo": "Norte",
+    "secoes": 37009,
+    "comparec_95": 102,
+    "pct": 0.2756086357372531
+   },
+   {
+    "ano": 2018,
+    "escopo": "Sudeste",
+    "secoes": 186942,
+    "comparec_95": 132,
+    "pct": 0.07061013576403377
+   },
+   {
+    "ano": 2018,
+    "escopo": "Sul",
+    "secoes": 68920,
+    "comparec_95": 384,
+    "pct": 0.5571677307022636
+   },
+   {
+    "ano": 2022,
+    "escopo": "Brasil",
+    "secoes": 470847,
+    "comparec_95": 254,
+    "pct": 0.053945336807922746
+   },
+   {
+    "ano": 2022,
+    "escopo": "Centro-Oeste",
+    "secoes": 35927,
+    "comparec_95": 19,
+    "pct": 0.05288501683970273
+   },
+   {
+    "ano": 2022,
+    "escopo": "Nordeste",
+    "secoes": 132538,
+    "comparec_95": 110,
+    "pct": 0.0829950655661018
+   },
+   {
+    "ano": 2022,
+    "escopo": "Norte",
+    "secoes": 38957,
+    "comparec_95": 34,
+    "pct": 0.08727571424904382
+   },
+   {
+    "ano": 2022,
+    "escopo": "Sudeste",
+    "secoes": 194292,
+    "comparec_95": 28,
+    "pct": 0.014411298457991066
+   },
+   {
+    "ano": 2022,
+    "escopo": "Sul",
+    "secoes": 69133,
+    "comparec_95": 63,
+    "pct": 0.09112869396670187
+   },
+   {
+    "ano": 2026,
+    "escopo": "Brasil",
+    "secoes": 497644,
+    "comparec_95": 599,
+    "pct": 0.1203671701055373
+   },
+   {
+    "ano": 2026,
+    "escopo": "Centro-Oeste",
+    "secoes": 38030,
+    "comparec_95": 18,
+    "pct": 0.047331054430712595
+   },
+   {
+    "ano": 2026,
+    "escopo": "Nordeste",
+    "secoes": 140751,
+    "comparec_95": 324,
+    "pct": 0.2301937464032227
+   },
+   {
+    "ano": 2026,
+    "escopo": "Norte",
+    "secoes": 43728,
+    "comparec_95": 128,
+    "pct": 0.29271862422246614
+   },
+   {
+    "ano": 2026,
+    "escopo": "Sudeste",
+    "secoes": 203153,
+    "comparec_95": 72,
+    "pct": 0.03544126840361698
+   },
+   {
+    "ano": 2026,
+    "escopo": "Sul",
+    "secoes": 71982,
+    "comparec_95": 57,
+    "pct": 0.07918646328248728
+   }
+  ],
+  "manual_pct_alta_2026": 7.532037311481126,
+  "manual_pct_demais_2026": 6.637054199237965,
+  "secoes_alta_2026_log": 82
+ },
+ "t8_2": [
+  {
+   "ano": 2018,
+   "escopo": "Brasil",
+   "secoes": 452083,
+   "pt_95": 1007,
+   "direita_95": 1
+  },
+  {
+   "ano": 2018,
+   "escopo": "Centro-Oeste",
+   "secoes": 34435,
+   "pt_95": 42,
+   "direita_95": 0
+  },
+  {
+   "ano": 2018,
+   "escopo": "Nordeste",
+   "secoes": 125697,
+   "pt_95": 674,
+   "direita_95": 0
+  },
+  {
+   "ano": 2018,
+   "escopo": "Norte",
+   "secoes": 36874,
+   "pt_95": 236,
+   "direita_95": 0
+  },
+  {
+   "ano": 2018,
+   "escopo": "Sudeste",
+   "secoes": 186331,
+   "pt_95": 45,
+   "direita_95": 0
+  },
+  {
+   "ano": 2018,
+   "escopo": "Sul",
+   "secoes": 68746,
+   "pt_95": 10,
+   "direita_95": 1
+  },
+  {
+   "ano": 2022,
+   "escopo": "Brasil",
+   "secoes": 470391,
+   "pt_95": 1236,
+   "direita_95": 10
+  },
+  {
+   "ano": 2022,
+   "escopo": "Centro-Oeste",
+   "secoes": 35900,
+   "pt_95": 41,
+   "direita_95": 0
+  },
+  {
+   "ano": 2022,
+   "escopo": "Nordeste",
+   "secoes": 132400,
+   "pt_95": 888,
+   "direita_95": 0
+  },
+  {
+   "ano": 2022,
+   "escopo": "Norte",
+   "secoes": 38898,
+   "pt_95": 242,
+   "direita_95": 3
+  },
+  {
+   "ano": 2022,
+   "escopo": "Sudeste",
+   "secoes": 194135,
+   "pt_95": 49,
+   "direita_95": 1
+  },
+  {
+   "ano": 2022,
+   "escopo": "Sul",
+   "secoes": 69058,
+   "pt_95": 16,
+   "direita_95": 6
+  },
+  {
+   "ano": 2026,
+   "escopo": "Brasil",
+   "secoes": 497212,
+   "pt_95": 822,
+   "direita_95": 19
+  },
+  {
+   "ano": 2026,
+   "escopo": "Centro-Oeste",
+   "secoes": 38009,
+   "pt_95": 43,
+   "direita_95": 1
+  },
+  {
+   "ano": 2026,
+   "escopo": "Nordeste",
+   "secoes": 140636,
+   "pt_95": 442,
+   "direita_95": 0
+  },
+  {
+   "ano": 2026,
+   "escopo": "Norte",
+   "secoes": 43660,
+   "pt_95": 308,
+   "direita_95": 6
+  },
+  {
+   "ano": 2026,
+   "escopo": "Sudeste",
+   "secoes": 202991,
+   "pt_95": 20,
+   "direita_95": 0
+  },
+  {
+   "ano": 2026,
+   "escopo": "Sul",
+   "secoes": 71916,
+   "pt_95": 9,
+   "direita_95": 12
+  }
+ ],
+ "a6": [
+  {
+   "ano": 2018,
+   "vagas_por_estado": 2,
+   "senado_eleitos_PT": 8142388,
+   "senado_eleitos_PL": 1179757,
+   "senado_eleitos_PSL_2018": 14472389,
+   "senado_todos_PT": 24889718,
+   "senado_todos_PL": 3130082,
+   "senado_validos_total": 172328080,
+   "comparecimento": 117161794,
+   "senado_validos_por_eleitor": 1.4708555930784057,
+   "presidente_PT": 31342005,
+   "presidente_direita": 49276990,
+   "eleitos_PT": 4,
+   "eleitos_PL": 1
+  },
+  {
+   "ano": 2022,
+   "vagas_por_estado": 1,
+   "senado_eleitos_PT": 8194565,
+   "senado_eleitos_PL": 18030633,
+   "senado_eleitos_PSL_2018": 0,
+   "senado_todos_PT": 12456553,
+   "senado_todos_PL": 25278764,
+   "senado_validos_total": 102164263,
+   "comparecimento": 123378340,
+   "senado_validos_por_eleitor": 0.8280567156277188,
+   "presidente_PT": 57259504,
+   "presidente_direita": 51072345,
+   "eleitos_PT": 4,
+   "eleitos_PL": 8
+  },
+  {
+   "ano": 2026,
+   "vagas_por_estado": 2,
+   "senado_eleitos_PT": 15991205,
+   "senado_eleitos_PL": 45247104,
+   "senado_eleitos_PSL_2018": 0,
+   "senado_todos_PT": 27306998,
+   "senado_todos_PL": 58307861,
+   "senado_validos_total": 207632159,
+   "comparecimento": 124779506,
+   "senado_validos_por_eleitor": 1.6639924748540036,
+   "presidente_PT": 53879538,
+   "presidente_direita": 56104503,
+   "eleitos_PT": 6,
+   "eleitos_PL": 19
+  }
+ ],
+ "a7": {
+  "passos": 40,
+  "sd_incremento_real": 0.32236551317985584,
+  "sd_incremento_aleatorio_p2_5": 0.022081697276338193,
+  "sd_incremento_aleatorio_p97_5": 0.08090696235172645,
+  "media_abs_incremento_real": 0.2831211558945935,
+  "media_abs_incremento_aleatorio_mediana": 0.022177359127912993,
+  "incrementos_reais": [
+   1.291735478568551,
+   0.5124738822135875,
+   0.357305512992502,
+   0.0773525177909562,
+   0.023144003912396016,
+   -0.006918657168736075,
+   -0.09804286621829839,
+   -0.2963228731401131,
+   -0.14551716059770214,
+   -0.10897495774025323,
+   -0.2043500371434046,
+   -0.11489845918866592,
+   -0.08331984961894356,
+   -0.12240656289280061,
+   -0.2492932892038997,
+   -0.2318039587930052,
+   -0.14658630308268705,
+   -0.18672372637489154,
+   -0.14563803735003944,
+   -0.17413332917784174,
+   -0.19939577698541378,
+   -0.252674062466844,
+   -0.15261513386300596,
+   -0.17260368942223447,
+   -0.1881924408402753,
+   -0.25332589535631644,
+   -0.27136349051945885,
+   -0.28962966590216155,
+   -0.2551945298034388,
+   -0.3025126137938683,
+   -0.3045531623160542,
+   -0.32515247778251233,
+   -0.38459563025432875,
+   -0.4027885039577228,
+   -0.42749552086111287,
+   -0.47522705715941527,
+   -0.46432187586695006,
+   -0.5296808024105117,
+   -0.8134612871582463
+  ]
+ }
+}

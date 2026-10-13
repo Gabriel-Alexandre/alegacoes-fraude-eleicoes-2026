@@ -42,9 +42,9 @@ def secoes(ano: int) -> pd.DataFrame:
     return d
 
 
-def votos(ano: int, cargo: int) -> pd.DataFrame:
+def votos(ano: int, cargo: int, exterior: bool = False) -> pd.DataFrame:
     d = pd.concat([pd.read_parquet(p) for p in sorted(BW.glob(f"{ano}-*-votos.parquet"))], ignore_index=True)
-    d = d[(d["uf"] != "ZZ") & (d["cargo"] == cargo)].copy()
+    d = d[((d["uf"] != "ZZ") | exterior) & (d["cargo"] == cargo)].copy()
     for c in ("mun", "zona", "secao"):
         d[c] = d[c].astype(int)
     return d
@@ -71,7 +71,9 @@ def t15(resumo: dict) -> None:
     t.to_csv(SAI / "t15_serie_contador_sem_biometria.csv", index=False)
     piv = t.pivot(index="escopo", columns="ano", values="taxa_nh_pct")
     piv["delta_pres_2022_2026"] = piv[2026] - piv[2022]
-    piv["delta_mun_2020_2024"] = piv[2024] - piv[2020]
+    piv["delta_2022_2024"] = piv[2024] - piv[2022]   # emenda E9: a queda antes de qualquer campanha de fiscais de 2026
+    piv["delta_2024_2026"] = piv[2026] - piv[2024]   # emenda E9: o que mudou de 2024 para 2026
+    piv["delta_pres_2018_2022"] = piv[2022] - piv[2018]  # emenda E9: a variacao "normal" entre duas presidenciais
     resto = {}
     for esc in piv.index:
         if esc == "Brasil":
@@ -191,7 +193,7 @@ def a6(resumo: dict) -> None:
         porc["partido"] = porc["numero"] // 10
         porc["rank"] = porc.groupby("uf")["votos"].rank(ascending=False, method="first")
         eleitos = porc[porc["rank"] <= vagas[ano]]
-        pres = votos(ano, 1)
+        pres = votos(ano, 1, exterior=True)  # presidente inclui o exterior
         dire, pt = CANDIDATOS[ano]
         comp = secoes(ano)["comparecimento"].sum()
         lin.append({"ano": ano, "vagas_por_estado": vagas[ano],
