@@ -23,4 +23,4 @@ O relato que circulou depois de 4 de outubro foi o contrário: quem votou viu "f
 
 ## A conta para comparar depois
 
-O projeto mede quantas liberações manuais aconteceram depois das 17h (`resultados/a1_inventario.csv`). Se uma parte delas fosse voto no lugar de ausente, cada uma corresponderia a um eleitor que se absteve e aparece como "votou". O relatório traz essa conta (quantos casos esperar entre os ausentes, sob cada hipótese) quando os resultados saírem.
+Abstenção no 1º turno de 2026: **33.453.535** eleitores. Se **todas** as 441.896 liberações à mão feitas depois das 17h fossem voto no lugar de ausente, **1 em cada 76** pessoas que faltaram apareceria como "votou". Se fossem só as das 122 seções que o teste marcou (2.871 votos), seria **1 em cada 11.650**. Muitos relatos de "faltei e aparece que votei" contradiriam o relatório; poucos ou nenhum são o que ele prevê.

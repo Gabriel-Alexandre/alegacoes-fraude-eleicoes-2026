@@ -51,9 +51,9 @@ Cada fato externo usado no plano, no relatório ou no vídeo, com a fonte primá
 |---|---|---|---|---|
 | D1 | Pesquisa **Genial/Quaest**, 5 a 9/fev/2026: 53% concordam que as urnas são confiáveis, 43% discordam; eleitores de Lula em 2022: 75%; de Bolsonaro: 26% | Poder360 | InfoMoney, Diário de Pernambuco | 🔧 (o Spotniks chamou de "Quest") |
 | D2 | TCU, 2022: amostra de 4.161 boletins do 1º turno; nenhuma divergência | portal do TCU | Metrópoles, Poder360 | ✅ |
-| D3 | Abstenção 2026 por estado e região | imprensa (Gazeta SP, Correio da Manhã) | — | ⬜ **recalculada com o CSV oficial** (teste T3.1) |
-| D4 | quehorasvotar (Uapé): em Manaus, 2026, 4.013 seções, 67.846 pessoas votaram depois das 16h locais (17h de Brasília), última às 20h11 na Colônia Antônio Aleixo, 568 seções mais de 1 h além do horário, 34 mais de 2 h; 2022: urnas com 5 ou mais na fila no encerramento caíram de 27% (1º turno) para 0,03% (2º) | marioadolfo.com, 10/out/2026 | ⬜ | ⚠️ **serve de validação do leitor**: os números de Manaus são refeitos com o log |
-| D5 | Elmano (PT) reeleito no 1º turno no Ceará | O Povo | Wikipedia (não é fonte) | ⬜ conferir no resultado oficial |
+| D3 | Abstenção 2026: 33.453.535 eleitores, 21,1% (imprensa: 21,08%) | CSV oficial do boletim de urna, recalculado | Gazeta SP, Correio da Manhã | ✅ |
+| D4 | quehorasvotar (Uapé): em Manaus, 2026, 4.013 seções, 67.846 pessoas votaram depois das 16h locais (17h de Brasília), última às 20h11 na Colônia Antônio Aleixo, 568 seções mais de 1 h além do horário, 34 mais de 2 h; 2022: urnas com 5 ou mais na fila no encerramento caíram de 27% (1º turno) para 0,03% (2º) | marioadolfo.com, 10/out/2026 | ⬜ | ✅ **reproduzido pelo leitor** (`docs/VALIDACAO_DO_LEITOR.md`, V2): 4 de 5 números iguais, o 5º a 0,8% |
+| D5 | Elmano (PT) reeleito no 1º turno no Ceará com 53,19% dos válidos; Ciro Gomes 46,22% | CSV oficial do boletim de urna, recalculado | O Povo | ✅ |
 
 ## 5. Voto impresso e segurança
 

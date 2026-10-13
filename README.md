@@ -10,6 +10,6 @@ Cada alegação termina num veredito (confirmado, indício forte, compatível co
 | [`docs/PRE_REGISTRO.md`](docs/PRE_REGISTRO.md) | os critérios de cada teste, gravados antes de olhar os dados |
 | [`docs/FONTES_DE_DADOS.md`](docs/FONTES_DE_DADOS.md) | de onde vem cada dado |
 | [`docs/DADOS_LOCAIS.md`](docs/DADOS_LOCAIS.md) | o que ocupa disco, como baixar de novo e o que pode ser apagado |
-| `RELATORIO.md` e `RESUMO_SIMPLES.md` | os resultados (quando prontos) |
+| [`RELATORIO.md`](RELATORIO.md) e [`RESUMO_SIMPLES.md`](RESUMO_SIMPLES.md) | os resultados: um veredito por alegação, o teto do pior caso e o que fecharia cada uma |
 
 **Quem fez.** O plano e a análise foram feitos por uma IA (Claude) sob a direção do autor do repositório, que aprovou o plano antes da execução. Nenhum identificador de mesário, título, CPF ou nome que aparece nos logs das urnas é publicado.

@@ -33,7 +33,7 @@ A Lei 12.527/2011 obriga órgãos públicos (inclusive TSE, TREs, MPF e PF) a re
 > 2. Se a ata da mesa receptora registra ocorrência de identificação, impugnação ou protesto, e de que tipo.
 > 3. Quantos fiscais de partido ou federação estavam credenciados para cada seção.
 
-*(O anexo sai da lista de seções marcadas pelo teste S5 do projeto, `resultados/`.)*
+*(Anexo: `resultados/a1_secoes_marcadas.csv`, 147 seções com o nome da escola; 41 em Pernambuco, 38 no Espírito Santo, 19 na Bahia, 6 no Ceará. Para o TRE-CE e o TRE-BA, filtrar pela UF.)*
 
 ## P4 · Ministério Público Eleitoral (Procuradoria-Geral Eleitoral e Procuradorias Regionais)
 

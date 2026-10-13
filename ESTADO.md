@@ -1,23 +1,24 @@
 # ESTADO
 
-**13/out/2026** · plano aprovado; pré-registro gravado (emendas E1 a E9); coleta dos 499.161 logs em andamento.
+**13/out/2026** · ✅ **executado de ponta a ponta.** Plano aprovado; pré-registro com 12 emendas (quatro feitas depois de ver resultado, marcadas); 499.161 logs de urna (53,4 GB) lidos e validados; relatório, resumo simples, revisão adversarial, gráficos, pedidos por LAI e convite público prontos.
 
-## Feito
+## Onde está cada coisa
 
-1. ✅ Plano aprovado e melhorias (§13 do plano)
-2. ✅ Pré-registro em commit (`3312d5c`), emendas E1 a E9
-3. ✅ CSV oficiais de 2014 a 2026 baixados e lidos
-4. ✅ Leitor do log validado: reconciliação (99,7%), Manaus contra o quehorasvotar, segundo leitor (100% em 2.000 seções), leitura à mão (74 eleitores), contador oficial (AM, 0,15%) — `docs/VALIDACAO_DO_LEITOR.md`
-5. ✅ Testes que dependem só dos CSV (`ferramentas/analise-2-series-e-contas.py`)
-6. ✅ Verificação de fontes (1ª rodada), pedidos por LAI e convite público (não protocolados)
+| | |
+|---|---|
+| Resultados | `RELATORIO.md` (completo) e `RESUMO_SIMPLES.md` |
+| Critérios | `docs/PRE_REGISTRO.md` (emendas na §9) |
+| Validação do leitor | `docs/VALIDACAO_DO_LEITOR.md` (log contra o contador oficial do TSE: 495.745 de 495.745 seções idênticas) |
+| Fontes | `docs/VERIFICACAO_DE_FONTES.md` |
+| Revisão | `docs/REVISAO_ADVERSARIAL.md` |
+| Pedidos e convite | `docs/PEDIDOS_LAI.md` (não protocolados) e `docs/CONVITE_PUBLICO.md` |
+| Gráficos | `resultados/figuras/` (1920×1080) |
+| Dados e como apagar | `docs/DADOS_LOCAIS.md` |
 
-## Falta
+## ⬜ Decisões do autor
 
-- ⏳ terminar a coleta dos logs; rodar `derivar_logs`, `secoes` e `ferramentas/analise-1-mesarios-e-17h.py` no país
-- ⬜ validação final nas 28 UFs (reconciliação, segundo leitor, V4, leitura à mão com todas as categorias)
-- ⬜ revisão adversarial em dois papéis e conferência de viés
-- ⬜ relatório, resumo simples, gráficos, `docs/DADOS_LOCAIS.md`
+Protocolar os pedidos (se o público engajar) · fazer o convite público · tornar o repositório público · apagar `dados/` depois do vídeo (ver `docs/DADOS_LOCAIS.md`).
 
-## Como retomar
+## Como refazer tudo
 
-`python -m alegacoes.coleta_logs todas 75` (retoma de onde parou) → `python -m alegacoes.derivar_logs todas` → `python -m alegacoes.bweb 2014,2018,2020,2022,2024,2026 todas` → `python -m alegacoes.secoes todas` → `python ferramentas/analise-1-mesarios-e-17h.py` → `python ferramentas/analise-2-series-e-contas.py` → `python ferramentas/graficos.py` → `python ferramentas/dados-locais.py`.
+`python -m alegacoes.coleta_logs todas 75` → `python ferramentas/baixar-bweb.py` → `python -m alegacoes.derivar_logs todas` → `python -m alegacoes.bweb 2014,2018,2020,2022,2024,2026 todas` → `python -m alegacoes.secoes todas` → `python ferramentas/analise-2-series-e-contas.py` → `python ferramentas/analise-1-mesarios-e-17h.py` → `python ferramentas/analise-3-exploratoria.py` → `python ferramentas/analise-4-locais.py` → `python ferramentas/analise-5-sem-digital.py` → `python ferramentas/graficos.py` → `python ferramentas/dados-locais.py`. Validação: `python ferramentas/validacao-independente.py 3000` e `python ferramentas/leitura-manual.py`.
