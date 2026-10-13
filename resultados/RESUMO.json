@@ -4192,7 +4192,1110 @@
    "secoes_com_20_ou_mais_votos_apos17": 70250,
    "excesso_medio_pontos": -1.3839177441035244,
    "secoes_com_excesso_acima_de_20_pontos": 249
-  }
+  },
+  "x5_sem_digital": [
+   {
+    "escopo": "Brasil",
+    "sem_digital_antes_pct": 5.52,
+    "sem_digital_depois_pct": 6.66,
+    "mesario_antes_pct": 6.71,
+    "mesario_depois_pct": 5.2
+   },
+   {
+    "escopo": "Centro-Oeste",
+    "sem_digital_antes_pct": 3.95,
+    "sem_digital_depois_pct": 5.59,
+    "mesario_antes_pct": 6.58,
+    "mesario_depois_pct": 5.43
+   },
+   {
+    "escopo": "Nordeste",
+    "sem_digital_antes_pct": 4.41,
+    "sem_digital_depois_pct": 5.97,
+    "mesario_antes_pct": 7.04,
+    "mesario_depois_pct": 5.24
+   },
+   {
+    "escopo": "Norte",
+    "sem_digital_antes_pct": 3.66,
+    "sem_digital_depois_pct": 5.16,
+    "mesario_antes_pct": 5.42,
+    "mesario_depois_pct": 4.12
+   },
+   {
+    "escopo": "Sudeste",
+    "sem_digital_antes_pct": 7.28,
+    "sem_digital_depois_pct": 10.91,
+    "mesario_antes_pct": 6.41,
+    "mesario_depois_pct": 5.6
+   },
+   {
+    "escopo": "Sul",
+    "sem_digital_antes_pct": 4.48,
+    "sem_digital_depois_pct": 5.23,
+    "mesario_antes_pct": 7.76,
+    "mesario_depois_pct": 6.7
+   },
+   {
+    "escopo": "CE",
+    "sem_digital_antes_pct": 3.95,
+    "sem_digital_depois_pct": 5.16,
+    "mesario_antes_pct": 6.99,
+    "mesario_depois_pct": 5.03
+   }
+  ],
+  "x6_x7": [
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Brasil",
+    "y": "p_lula",
+    "x": "f_sem_apos17",
+    "n": 474234,
+    "coef": -0.04361606450335657,
+    "ep": 0.052694972601313124,
+    "p": 0.40783573561078545
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Brasil",
+    "y": "p_lula",
+    "x": "f_mes_apos17",
+    "n": 474234,
+    "coef": 0.17394897838675066,
+    "ep": 0.04082247874115227,
+    "p": 2.0341617280968847e-05
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Brasil",
+    "y": "p_lula",
+    "x": "f_bio_apos17",
+    "n": 474234,
+    "coef": 0.13230585247530385,
+    "ep": 0.019100386124970198,
+    "p": 4.302598476859633e-12
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Brasil",
+    "y": "p_lula",
+    "x": "f_manual_antes17",
+    "n": 474234,
+    "coef": 0.009147457612144241,
+    "ep": 0.0114583114611468,
+    "p": 0.42468185746647813
+   },
+   {
+    "teste": "X7 excesso de sem digital no fim do dia",
+    "escopo": "Brasil",
+    "y": "p_lula",
+    "x": "excesso_sem_tarde",
+    "n": 58411,
+    "coef": 0.005732581903489048,
+    "ep": 0.004564908414186877,
+    "p": 0.20919088154300525
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Brasil",
+    "y": "p_flavio",
+    "x": "f_sem_apos17",
+    "n": 474234,
+    "coef": -0.013654853435276275,
+    "ep": 0.060892911277243965,
+    "p": 0.8225676596751983
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Brasil",
+    "y": "p_flavio",
+    "x": "f_mes_apos17",
+    "n": 474234,
+    "coef": -0.16592526696280976,
+    "ep": 0.04326187594883051,
+    "p": 0.0001253758114208389
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Brasil",
+    "y": "p_flavio",
+    "x": "f_bio_apos17",
+    "n": 474234,
+    "coef": -0.0900821726365511,
+    "ep": 0.017437924793148384,
+    "p": 2.393142804480188e-07
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Brasil",
+    "y": "p_flavio",
+    "x": "f_manual_antes17",
+    "n": 474234,
+    "coef": 0.0048534925909240415,
+    "ep": 0.013249256104599616,
+    "p": 0.7141248942457884
+   },
+   {
+    "teste": "X7 excesso de sem digital no fim do dia",
+    "escopo": "Brasil",
+    "y": "p_flavio",
+    "x": "excesso_sem_tarde",
+    "n": 58411,
+    "coef": -0.00851858991436999,
+    "ep": 0.004559174103664912,
+    "p": 0.06169934088980819
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Brasil",
+    "y": "comp_taxa",
+    "x": "f_sem_apos17",
+    "n": 474234,
+    "coef": -0.030094396057094935,
+    "ep": 0.040500838435427,
+    "p": 0.4574477015140287
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Brasil",
+    "y": "comp_taxa",
+    "x": "f_mes_apos17",
+    "n": 474234,
+    "coef": 0.11409981087871084,
+    "ep": 0.03539472546780877,
+    "p": 0.0012657293448182921
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Brasil",
+    "y": "comp_taxa",
+    "x": "f_bio_apos17",
+    "n": 474234,
+    "coef": -0.03072012346449457,
+    "ep": 0.010710884262731738,
+    "p": 0.004129161956105924
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Brasil",
+    "y": "comp_taxa",
+    "x": "f_manual_antes17",
+    "n": 474234,
+    "coef": -0.17099175028161412,
+    "ep": 0.013696822239694484,
+    "p": 9.123099102297008e-36
+   },
+   {
+    "teste": "X7 excesso de sem digital no fim do dia",
+    "escopo": "Brasil",
+    "y": "comp_taxa",
+    "x": "excesso_sem_tarde",
+    "n": 58411,
+    "coef": -0.021635540152056716,
+    "ep": 0.005871664016066029,
+    "p": 0.0002289385311233826
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Centro-Oeste",
+    "y": "p_lula",
+    "x": "f_sem_apos17",
+    "n": 37279,
+    "coef": 0.33279016381289084,
+    "ep": 0.2195438515359552,
+    "p": 0.12956348774099394
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Centro-Oeste",
+    "y": "p_lula",
+    "x": "f_mes_apos17",
+    "n": 37279,
+    "coef": 0.013777623081439394,
+    "ep": 0.07293599209296822,
+    "p": 0.8501710412492485
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Centro-Oeste",
+    "y": "p_lula",
+    "x": "f_bio_apos17",
+    "n": 37279,
+    "coef": 0.13201212716196883,
+    "ep": 0.05255349704715468,
+    "p": 0.012006370183508626
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Centro-Oeste",
+    "y": "p_lula",
+    "x": "f_manual_antes17",
+    "n": 37279,
+    "coef": 0.039444449064400096,
+    "ep": 0.01138625873201691,
+    "p": 0.0005317811674656245
+   },
+   {
+    "teste": "X7 excesso de sem digital no fim do dia",
+    "escopo": "Centro-Oeste",
+    "y": "p_lula",
+    "x": "excesso_sem_tarde",
+    "n": 2486,
+    "coef": 0.022970850294778217,
+    "ep": 0.014706117921195319,
+    "p": 0.11828968525546692
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Centro-Oeste",
+    "y": "p_flavio",
+    "x": "f_sem_apos17",
+    "n": 37279,
+    "coef": -0.3093536679177797,
+    "ep": 0.20663817100271592,
+    "p": 0.13437270138597882
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Centro-Oeste",
+    "y": "p_flavio",
+    "x": "f_mes_apos17",
+    "n": 37279,
+    "coef": 0.06857882843815544,
+    "ep": 0.07461555885748175,
+    "p": 0.3580455943264609
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Centro-Oeste",
+    "y": "p_flavio",
+    "x": "f_bio_apos17",
+    "n": 37279,
+    "coef": -0.11108871397160791,
+    "ep": 0.05669775899753311,
+    "p": 0.0500760231315673
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Centro-Oeste",
+    "y": "p_flavio",
+    "x": "f_manual_antes17",
+    "n": 37279,
+    "coef": -0.053405143572401004,
+    "ep": 0.016195416883500787,
+    "p": 0.0009753345228916639
+   },
+   {
+    "teste": "X7 excesso de sem digital no fim do dia",
+    "escopo": "Centro-Oeste",
+    "y": "p_flavio",
+    "x": "excesso_sem_tarde",
+    "n": 2486,
+    "coef": -0.02424863871609541,
+    "ep": 0.018519598786630932,
+    "p": 0.19041578262513903
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Centro-Oeste",
+    "y": "comp_taxa",
+    "x": "f_sem_apos17",
+    "n": 37279,
+    "coef": -0.1687918975268545,
+    "ep": 0.1055433351021353,
+    "p": 0.10976144733025728
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Centro-Oeste",
+    "y": "comp_taxa",
+    "x": "f_mes_apos17",
+    "n": 37279,
+    "coef": 0.28930817595411623,
+    "ep": 0.08434894304965944,
+    "p": 0.0006038106930123811
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Centro-Oeste",
+    "y": "comp_taxa",
+    "x": "f_bio_apos17",
+    "n": 37279,
+    "coef": -0.004302769837763878,
+    "ep": 0.028391397135959374,
+    "p": 0.8795403827989898
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Centro-Oeste",
+    "y": "comp_taxa",
+    "x": "f_manual_antes17",
+    "n": 37279,
+    "coef": -0.14987766683319934,
+    "ep": 0.01202241989635823,
+    "p": 1.1369168609085636e-35
+   },
+   {
+    "teste": "X7 excesso de sem digital no fim do dia",
+    "escopo": "Centro-Oeste",
+    "y": "comp_taxa",
+    "x": "excesso_sem_tarde",
+    "n": 2486,
+    "coef": -0.0230557662825191,
+    "ep": 0.014688334015429842,
+    "p": 0.1164930287228509
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Nordeste",
+    "y": "p_lula",
+    "x": "f_sem_apos17",
+    "n": 131019,
+    "coef": -0.11335634971565428,
+    "ep": 0.04125504495178351,
+    "p": 0.006001550300122782
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Nordeste",
+    "y": "p_lula",
+    "x": "f_mes_apos17",
+    "n": 131019,
+    "coef": 0.17170113977773574,
+    "ep": 0.033182169147066155,
+    "p": 2.2852190657949313e-07
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Nordeste",
+    "y": "p_lula",
+    "x": "f_bio_apos17",
+    "n": 131019,
+    "coef": 0.1416724872238841,
+    "ep": 0.011203597205734175,
+    "p": 1.1881897033277959e-36
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Nordeste",
+    "y": "p_lula",
+    "x": "f_manual_antes17",
+    "n": 131019,
+    "coef": -0.017191479966792343,
+    "ep": 0.007124023291294629,
+    "p": 0.015814437313268884
+   },
+   {
+    "teste": "X7 excesso de sem digital no fim do dia",
+    "escopo": "Nordeste",
+    "y": "p_lula",
+    "x": "excesso_sem_tarde",
+    "n": 37812,
+    "coef": 0.006166995312064887,
+    "ep": 0.005840954268628315,
+    "p": 0.2910505391328998
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Nordeste",
+    "y": "p_flavio",
+    "x": "f_sem_apos17",
+    "n": 131019,
+    "coef": 0.03830337554543491,
+    "ep": 0.04256264804455007,
+    "p": 0.36815785778194
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Nordeste",
+    "y": "p_flavio",
+    "x": "f_mes_apos17",
+    "n": 131019,
+    "coef": -0.09580020349657253,
+    "ep": 0.03186466335128901,
+    "p": 0.0026429879318834895
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Nordeste",
+    "y": "p_flavio",
+    "x": "f_bio_apos17",
+    "n": 131019,
+    "coef": -0.10824370810488781,
+    "ep": 0.009861896284375171,
+    "p": 4.987722815208993e-28
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Nordeste",
+    "y": "p_flavio",
+    "x": "f_manual_antes17",
+    "n": 131019,
+    "coef": -0.00800861859573809,
+    "ep": 0.006735345709368647,
+    "p": 0.2344225754599365
+   },
+   {
+    "teste": "X7 excesso de sem digital no fim do dia",
+    "escopo": "Nordeste",
+    "y": "p_flavio",
+    "x": "excesso_sem_tarde",
+    "n": 37812,
+    "coef": -0.010755260294645439,
+    "ep": 0.005272822041506838,
+    "p": 0.04137482512929879
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Nordeste",
+    "y": "comp_taxa",
+    "x": "f_sem_apos17",
+    "n": 131019,
+    "coef": -0.19782590802727062,
+    "ep": 0.033090647090577394,
+    "p": 2.254743443047029e-09
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Nordeste",
+    "y": "comp_taxa",
+    "x": "f_mes_apos17",
+    "n": 131019,
+    "coef": 0.06239250171979764,
+    "ep": 0.031208584981152775,
+    "p": 0.045585683688234485
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Nordeste",
+    "y": "comp_taxa",
+    "x": "f_bio_apos17",
+    "n": 131019,
+    "coef": -0.03698782813212051,
+    "ep": 0.012585630636155417,
+    "p": 0.0032938623076649654
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Nordeste",
+    "y": "comp_taxa",
+    "x": "f_manual_antes17",
+    "n": 131019,
+    "coef": -0.11385148974813816,
+    "ep": 0.01047961206120686,
+    "p": 1.7091127411358395e-27
+   },
+   {
+    "teste": "X7 excesso de sem digital no fim do dia",
+    "escopo": "Nordeste",
+    "y": "comp_taxa",
+    "x": "excesso_sem_tarde",
+    "n": 37812,
+    "coef": -0.03974966499340572,
+    "ep": 0.006414246388325794,
+    "p": 5.751645424656201e-10
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Norte",
+    "y": "p_lula",
+    "x": "f_sem_apos17",
+    "n": 40444,
+    "coef": 0.13824065939701724,
+    "ep": 0.0890920753560466,
+    "p": 0.1207434647609439
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Norte",
+    "y": "p_lula",
+    "x": "f_mes_apos17",
+    "n": 40444,
+    "coef": 0.10330809548779597,
+    "ep": 0.07533440923193244,
+    "p": 0.17027310014219432
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Norte",
+    "y": "p_lula",
+    "x": "f_bio_apos17",
+    "n": 40444,
+    "coef": 0.10535482741312478,
+    "ep": 0.015957347964269255,
+    "p": 4.048907512309512e-11
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Norte",
+    "y": "p_lula",
+    "x": "f_manual_antes17",
+    "n": 40444,
+    "coef": 0.007112436838924068,
+    "ep": 0.013050377910544825,
+    "p": 0.5857545253774527
+   },
+   {
+    "teste": "X7 excesso de sem digital no fim do dia",
+    "escopo": "Norte",
+    "y": "p_lula",
+    "x": "excesso_sem_tarde",
+    "n": 8164,
+    "coef": 0.025624502963285584,
+    "ep": 0.016437911896501928,
+    "p": 0.11902808469540425
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Norte",
+    "y": "p_flavio",
+    "x": "f_sem_apos17",
+    "n": 40444,
+    "coef": -0.1850300791334791,
+    "ep": 0.0908668088160063,
+    "p": 0.04172245274663399
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Norte",
+    "y": "p_flavio",
+    "x": "f_mes_apos17",
+    "n": 40444,
+    "coef": -0.10443961856636386,
+    "ep": 0.07342836039028752,
+    "p": 0.15492945131533048
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Norte",
+    "y": "p_flavio",
+    "x": "f_bio_apos17",
+    "n": 40444,
+    "coef": -0.08403688234173723,
+    "ep": 0.01383486173371403,
+    "p": 1.2454197458730586e-09
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Norte",
+    "y": "p_flavio",
+    "x": "f_manual_antes17",
+    "n": 40444,
+    "coef": -0.03771898233097529,
+    "ep": 0.018916079143839293,
+    "p": 0.04615020282473521
+   },
+   {
+    "teste": "X7 excesso de sem digital no fim do dia",
+    "escopo": "Norte",
+    "y": "p_flavio",
+    "x": "excesso_sem_tarde",
+    "n": 8164,
+    "coef": -0.031089390406292244,
+    "ep": 0.019323225703794265,
+    "p": 0.10763535097998522
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Norte",
+    "y": "comp_taxa",
+    "x": "f_sem_apos17",
+    "n": 40444,
+    "coef": -0.0631759493960626,
+    "ep": 0.05270343220758748,
+    "p": 0.23064207025159122
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Norte",
+    "y": "comp_taxa",
+    "x": "f_mes_apos17",
+    "n": 40444,
+    "coef": -0.04186138302781124,
+    "ep": 0.05701120651930555,
+    "p": 0.46278671607783173
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Norte",
+    "y": "comp_taxa",
+    "x": "f_bio_apos17",
+    "n": 40444,
+    "coef": 0.04518055237377808,
+    "ep": 0.010690609383489185,
+    "p": 2.3768074298121265e-05
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Norte",
+    "y": "comp_taxa",
+    "x": "f_manual_antes17",
+    "n": 40444,
+    "coef": -0.1507016340847984,
+    "ep": 0.010753687314460265,
+    "p": 1.2807892488055588e-44
+   },
+   {
+    "teste": "X7 excesso de sem digital no fim do dia",
+    "escopo": "Norte",
+    "y": "comp_taxa",
+    "x": "excesso_sem_tarde",
+    "n": 8164,
+    "coef": -0.023493814648705962,
+    "ep": 0.014149186343484197,
+    "p": 0.0968268259043906
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Sudeste",
+    "y": "p_lula",
+    "x": "f_sem_apos17",
+    "n": 199005,
+    "coef": 0.031948706473470555,
+    "ep": 0.08012539236159429,
+    "p": 0.6900893204937358
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Sudeste",
+    "y": "p_lula",
+    "x": "f_mes_apos17",
+    "n": 199005,
+    "coef": 0.4718424180907611,
+    "ep": 0.18681150290125267,
+    "p": 0.011544586307545303
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Sudeste",
+    "y": "p_lula",
+    "x": "f_bio_apos17",
+    "n": 199005,
+    "coef": 0.09563510230923648,
+    "ep": 0.11206667618385235,
+    "p": 0.3934503788711601
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Sudeste",
+    "y": "p_lula",
+    "x": "f_manual_antes17",
+    "n": 199005,
+    "coef": 0.008359387861347602,
+    "ep": 0.021963282141185828,
+    "p": 0.7034945844040563
+   },
+   {
+    "teste": "X7 excesso de sem digital no fim do dia",
+    "escopo": "Sudeste",
+    "y": "p_lula",
+    "x": "excesso_sem_tarde",
+    "n": 8994,
+    "coef": -0.007691929952242323,
+    "ep": 0.010362415989199177,
+    "p": 0.4579109368567694
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Sudeste",
+    "y": "p_flavio",
+    "x": "f_sem_apos17",
+    "n": 199005,
+    "coef": 0.05366787146304256,
+    "ep": 0.05697270155717018,
+    "p": 0.34619635492548195
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Sudeste",
+    "y": "p_flavio",
+    "x": "f_mes_apos17",
+    "n": 199005,
+    "coef": -0.5579827266998564,
+    "ep": 0.18853297348396506,
+    "p": 0.003080358559102001
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Sudeste",
+    "y": "p_flavio",
+    "x": "f_bio_apos17",
+    "n": 199005,
+    "coef": -0.03630709957187467,
+    "ep": 0.09953189265471304,
+    "p": 0.7152767173665004
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Sudeste",
+    "y": "p_flavio",
+    "x": "f_manual_antes17",
+    "n": 199005,
+    "coef": 0.041355504464531095,
+    "ep": 0.023137317694118264,
+    "p": 0.073873819234979
+   },
+   {
+    "teste": "X7 excesso de sem digital no fim do dia",
+    "escopo": "Sudeste",
+    "y": "p_flavio",
+    "x": "excesso_sem_tarde",
+    "n": 8994,
+    "coef": 0.008660005388676005,
+    "ep": 0.01092707621012372,
+    "p": 0.42805332362039017
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Sudeste",
+    "y": "comp_taxa",
+    "x": "f_sem_apos17",
+    "n": 199005,
+    "coef": 0.07485854715616215,
+    "ep": 0.04501011408362378,
+    "p": 0.09628252043823497
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Sudeste",
+    "y": "comp_taxa",
+    "x": "f_mes_apos17",
+    "n": 199005,
+    "coef": -0.03475824077007425,
+    "ep": 0.11150971748721217,
+    "p": 0.755264016928502
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Sudeste",
+    "y": "comp_taxa",
+    "x": "f_bio_apos17",
+    "n": 199005,
+    "coef": -0.032144460547091185,
+    "ep": 0.03956994801946903,
+    "p": 0.4165935347879609
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Sudeste",
+    "y": "comp_taxa",
+    "x": "f_manual_antes17",
+    "n": 199005,
+    "coef": -0.21689969492999153,
+    "ep": 0.027930356345420352,
+    "p": 8.117427736646414e-15
+   },
+   {
+    "teste": "X7 excesso de sem digital no fim do dia",
+    "escopo": "Sudeste",
+    "y": "comp_taxa",
+    "x": "excesso_sem_tarde",
+    "n": 8994,
+    "coef": 0.016513449052341082,
+    "ep": 0.009639652936354753,
+    "p": 0.08669873121727138
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Sul",
+    "y": "p_lula",
+    "x": "f_sem_apos17",
+    "n": 66487,
+    "coef": 0.34691654579388786,
+    "ep": 0.16520335231182331,
+    "p": 0.03573442935755306
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Sul",
+    "y": "p_lula",
+    "x": "f_mes_apos17",
+    "n": 66487,
+    "coef": -0.22738176385255204,
+    "ep": 0.09573344590692019,
+    "p": 0.017541586657235042
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Sul",
+    "y": "p_lula",
+    "x": "f_bio_apos17",
+    "n": 66487,
+    "coef": 0.11769177192391195,
+    "ep": 0.01716984797318882,
+    "p": 7.15317960528884e-12
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Sul",
+    "y": "p_lula",
+    "x": "f_manual_antes17",
+    "n": 66487,
+    "coef": 0.0644845891164601,
+    "ep": 0.013538187048079344,
+    "p": 1.905819462961552e-06
+   },
+   {
+    "teste": "X7 excesso de sem digital no fim do dia",
+    "escopo": "Sul",
+    "y": "p_lula",
+    "x": "excesso_sem_tarde",
+    "n": 955,
+    "coef": 0.04077474660329113,
+    "ep": 0.0368677877334083,
+    "p": 0.2687385722657011
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Sul",
+    "y": "p_flavio",
+    "x": "f_sem_apos17",
+    "n": 66487,
+    "coef": -0.313939105282558,
+    "ep": 0.1546189659112352,
+    "p": 0.04231539948473638
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Sul",
+    "y": "p_flavio",
+    "x": "f_mes_apos17",
+    "n": 66487,
+    "coef": 0.1859881641661906,
+    "ep": 0.09014174891769157,
+    "p": 0.03908551016893408
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Sul",
+    "y": "p_flavio",
+    "x": "f_bio_apos17",
+    "n": 66487,
+    "coef": -0.07303170980453046,
+    "ep": 0.017295985156435226,
+    "p": 2.41643825623435e-05
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Sul",
+    "y": "p_flavio",
+    "x": "f_manual_antes17",
+    "n": 66487,
+    "coef": -0.03253847839477985,
+    "ep": 0.011444835881992247,
+    "p": 0.004468114755046608
+   },
+   {
+    "teste": "X7 excesso de sem digital no fim do dia",
+    "escopo": "Sul",
+    "y": "p_flavio",
+    "x": "excesso_sem_tarde",
+    "n": 955,
+    "coef": -0.016812472114088345,
+    "ep": 0.03507323461810996,
+    "p": 0.6316872826071003
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Sul",
+    "y": "comp_taxa",
+    "x": "f_sem_apos17",
+    "n": 66487,
+    "coef": -0.2216810179988276,
+    "ep": 0.09700549087870476,
+    "p": 0.022298644143339392
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Sul",
+    "y": "comp_taxa",
+    "x": "f_mes_apos17",
+    "n": 66487,
+    "coef": 0.383739022292747,
+    "ep": 0.11168020400340657,
+    "p": 0.0005902570062323215
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Sul",
+    "y": "comp_taxa",
+    "x": "f_bio_apos17",
+    "n": 66487,
+    "coef": 0.022908389539287918,
+    "ep": 0.014435199377601524,
+    "p": 0.11251691031688804
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "Sul",
+    "y": "comp_taxa",
+    "x": "f_manual_antes17",
+    "n": 66487,
+    "coef": -0.16191776524186394,
+    "ep": 0.014262386432909339,
+    "p": 7.183985023811657e-30
+   },
+   {
+    "teste": "X7 excesso de sem digital no fim do dia",
+    "escopo": "Sul",
+    "y": "comp_taxa",
+    "x": "excesso_sem_tarde",
+    "n": 955,
+    "coef": 0.04047313325165447,
+    "ep": 0.02884763135146632,
+    "p": 0.16061780581430452
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "CE",
+    "y": "p_lula",
+    "x": "f_sem_apos17",
+    "n": 21510,
+    "coef": -0.3476614525899294,
+    "ep": 0.06440489863508433,
+    "p": 6.736565878989658e-08
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "CE",
+    "y": "p_lula",
+    "x": "f_mes_apos17",
+    "n": 21510,
+    "coef": 0.1636478379705877,
+    "ep": 0.056943248866788816,
+    "p": 0.004054680834587287
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "CE",
+    "y": "p_lula",
+    "x": "f_bio_apos17",
+    "n": 21510,
+    "coef": 0.166717779261907,
+    "ep": 0.012245244784260667,
+    "p": 3.265939040799619e-42
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "CE",
+    "y": "p_lula",
+    "x": "f_manual_antes17",
+    "n": 21510,
+    "coef": -0.013432553519953086,
+    "ep": 0.028442173976312893,
+    "p": 0.6367298648737354
+   },
+   {
+    "teste": "X7 excesso de sem digital no fim do dia",
+    "escopo": "CE",
+    "y": "p_lula",
+    "x": "excesso_sem_tarde",
+    "n": 5774,
+    "coef": -0.0013603572378950855,
+    "ep": 0.01525417733213626,
+    "p": 0.9289393961613034
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "CE",
+    "y": "p_flavio",
+    "x": "f_sem_apos17",
+    "n": 21510,
+    "coef": 0.17824266390114304,
+    "ep": 0.060004250339512004,
+    "p": 0.0029731478817162003
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "CE",
+    "y": "p_flavio",
+    "x": "f_mes_apos17",
+    "n": 21510,
+    "coef": -0.07164175122231917,
+    "ep": 0.05329049056525492,
+    "p": 0.17883110846116612
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "CE",
+    "y": "p_flavio",
+    "x": "f_bio_apos17",
+    "n": 21510,
+    "coef": -0.11632380493425351,
+    "ep": 0.011063789099865128,
+    "p": 7.452897105388474e-26
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "CE",
+    "y": "p_flavio",
+    "x": "f_manual_antes17",
+    "n": 21510,
+    "coef": -0.012353856838435597,
+    "ep": 0.020013398304900853,
+    "p": 0.5370505066510953
+   },
+   {
+    "teste": "X7 excesso de sem digital no fim do dia",
+    "escopo": "CE",
+    "y": "p_flavio",
+    "x": "excesso_sem_tarde",
+    "n": 5774,
+    "coef": -0.011255597014679274,
+    "ep": 0.014597920447007006,
+    "p": 0.4406825554216741
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "CE",
+    "y": "comp_taxa",
+    "x": "f_sem_apos17",
+    "n": 21510,
+    "coef": -0.1959341554558211,
+    "ep": 0.0650155947886018,
+    "p": 0.002581266042420396
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "CE",
+    "y": "comp_taxa",
+    "x": "f_mes_apos17",
+    "n": 21510,
+    "coef": 0.14853743223753746,
+    "ep": 0.04743437088596793,
+    "p": 0.001739569981025988
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "CE",
+    "y": "comp_taxa",
+    "x": "f_bio_apos17",
+    "n": 21510,
+    "coef": -0.045549119309273654,
+    "ep": 0.015257127464894585,
+    "p": 0.002831779239570876
+   },
+   {
+    "teste": "X6 sem digital, mesario e digital depois das 17h",
+    "escopo": "CE",
+    "y": "comp_taxa",
+    "x": "f_manual_antes17",
+    "n": 21510,
+    "coef": -0.08653938584655459,
+    "ep": 0.016204652566212122,
+    "p": 9.273985216622634e-08
+   },
+   {
+    "teste": "X7 excesso de sem digital no fim do dia",
+    "escopo": "CE",
+    "y": "comp_taxa",
+    "x": "excesso_sem_tarde",
+    "n": 5774,
+    "coef": -0.036340094275151655,
+    "ep": 0.019355755229479143,
+    "p": 0.060451975538907
+   }
+  ]
  },
  "a12": {
   "secoes": 517179,
