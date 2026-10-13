@@ -26,10 +26,11 @@ Cada fato externo usado no plano, no relatório ou no vídeo, com a fonte primá
 |---|---|---|---|---|
 | C1 | Salvador, 04/out/2026: mesária presa em flagrante (Escola Estadual José Calazans Brandão da Silva, Santa Cruz); o policial militar em trânsito passou pela biometria, ela disse que o eleitor anterior deixou voto em aberto e que, ao resolver, votou no lugar dele; ouvida na PF e liberada | Bahia Notícias (a partir do g1 e da TV Bahia) | Correio, A Tarde | ✅ |
 | C2 | Operação Heterônimo (PF), Cabedelo/PB, 23/set/2026: 11 registros de identidade da mesma pessoa por digital; 3 inscrições eleitorais suspeitas (Santa Rita/PB, Benevides/PA, Brasília/DF) | PF, gov.br | Paraíba Online, WSCOM | ✅ |
-| C3 | Pescaria Brava/SC, 2016: eleitora morta votou; TRE-SC anulou os 183 votos da urna | Conjur, 29/jun/2017 | ⬜ | ⚠️ |
+| C3 | Pescaria Brava/SC, 2016: eleição para prefeito decidida por **um voto**; uma eleitora já morta votou; segundo o Comprova, **a Polícia Civil de SC concluiu que o voto foi registrado deliberadamente por um mesário**; o TRE-SC anulou os 183 votos da urna; o TSE discutiu nova eleição para a seção (julgamento suspenso por vista em 2017; desfecho não achado) | Conjur, 29/jun/2017 | Comprova (SBT News e Correio Braziliense, mar/2024) | ✅ (o desfecho no TSE fica ⬜) |
 | C4 | Ceará, 04/out: 23 crimes eleitorais em 15 municípios; 2 prisões por compra de voto (Itapajé, Tabuleiro do Norte); 6 procedimentos da PF; 91 urnas trocadas; nenhum caso noticiado de voto no lugar de outro | Diário do Nordeste | O Povo | ✅ |
 | C6 | 2022, Lisboa (voto no exterior): eleitor votou no lugar de outra pessoa; a PF tratou como crime do art. 309 e a urna foi impugnada (votação seguiu em cédula) | Tribuna de Jundiaí (cobertura das eleições 2022) | Canal Rural | ✅ (data pelo endereço das matérias; a conferir no texto) |
 | C7 | Código Eleitoral, art. 309: *"votar ou tentar votar mais de uma vez, ou em lugar de outrem"*, reclusão até três anos | LegJur (texto da Lei 4.737/1965) | Estratégia Concursos | ✅ |
+| C8 | Boato de 2022 de eleitor morto em 2010 com voto computado em 2022: o TSE classificou como falso (série Viralizou, ago/2026) | TSE | ⬜ | ⚠️ |
 | C5 | Camaçari/BA: coligação denunciou mesários entregando papéis na fila | Gomes News | ⬜ | ⚠️ |
 
 ## 3. Quem acusou
@@ -39,7 +40,7 @@ Cada fato externo usado no plano, no relatório ou no vídeo, com a fonte primá
 | A1 | Eduardo Bolsonaro, 24/abr/2026 (Rede Comunica Brasil): votos da Bahia depois das 17h, mesários *"em conluio"*; TRE-BA respondeu em 25/abr | Bahia Notícias | A Tarde | ✅ |
 | A2 | Eduardo Prado (06/out): senadores eleitos do PT 15,9 mi, Lula 53,9 mi; do PL 58,2 mi, Flávio 56,1 mi | O Tempo | — | ⚠️ (os números são refeitos no teste A6) |
 | A3 | Flávio, live de 17/set: fiscais *"para evitar que pessoas mal-intencionadas votem no lugar de outras"*, *"em especial no momento em que a urna fechou"* | Metrópoles, 30/set | Agenda do Poder, CLM Brasil | ✅ |
-| A4 | O PL também chamou fiscais em 2022 | Nexo, 23/out/2022 (manchete) | ⬜ | ⚠️ |
+| A4 | Em 2022 também houve chamada de fiscais: o site do PL convidava apoiadores a serem fiscais de urna, e a convocação de bolsonaristas para fiscalizar seções cresceu na véspera do 2º turno | Nexo, 23/out/2022 | Mais Goiás (reportagem sobre o 2º turno de 2022) | ✅ (o comentarista do ref-06 disse que em 2022 *"não botaram o fiscal"*) |
 | A5 | Áudio viral de 2022: "descriptografou o log", milhões depois das 17h, votos passaram de 1:40 para 32 a 35 s | checagem da JE de 28/11/2022 | — | ✅ (o conteúdo do áudio vem da checagem) |
 | A6 | 2022: PL e Instituto Voto Legal pediram anular votos de ~279 mil urnas antigas pelo código repetido no log; análise da USP, UFSCar e UFPA: alegações infundadas, bug real de baixo impacto | Poder360 | IstoÉ, Spotniks | ✅ |
 | A7 | 2022: relatório da Defesa não apontou fraude e disse que não era possível afirmar o sistema isento de código malicioso | O Povo | Jornal Opção, Aos Fatos | ✅ |
@@ -69,4 +70,4 @@ Cada fato externo usado no plano, no relatório ou no vídeo, com a fonte primá
 | V9 | EUA: auditoria de limitação de risco, Colorado em todo o estado desde 2017 | Wikipedia + EAC | Carter Center, NASS | ✅ |
 | V10 | México: o PREP publica a imagem de cada ata com hash | IEEM (documento técnico) | Posta, El Imparcial | ✅ |
 | V11 | Argentina: telegramas de cada mesa escaneados e publicados no escrutínio provisório | Canal 26 (2019) | Chequeado | ⚠️ (fontes de 2015 a 2023) |
-| V12 | Invasão da rede do TSE em 2018 (código de sistema de preparação copiado) | Spotniks | ⬜ | ⚠️ |
+| V12 | Invasão da rede do TSE em 2018: ofício do TSE à PF de 07/11/2018 (gestão Rosa Weber); acesso ao código-fonte do Gedai-UE (sistema de preparação das urnas) e a credenciais; TSE: sem impacto no resultado; especialistas: não prova fraude, mostra vulnerabilidade | Metrópoles | Poder360, Gazeta do Povo | ✅ |
