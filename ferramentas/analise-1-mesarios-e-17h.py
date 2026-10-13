@@ -126,6 +126,9 @@ def t19(d: pd.DataFrame, y: str, x1: str, x2: str, escopo: str) -> dict:
 def main() -> None:
     SAI.mkdir(exist_ok=True)
     d = carregar()
+    # a tabela por secao vai para o git (sem dado pessoal: so contagens), para reproduzir sem os brutos
+    (SAI / "dados").mkdir(exist_ok=True)
+    d.to_csv(SAI / "dados" / "secoes_2026.csv.gz", index=False, compression="gzip")
     rng = np.random.default_rng(SEMENTE)
     resumo: dict = {"a1": {}, "a2": {}}
     regioes = sorted(set(REGIAO.values()))
