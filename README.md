@@ -6,7 +6,7 @@ Cada alegação termina num veredito (confirmado, indício forte, compatível co
 
 | Arquivo | O que tem |
 |---|---|
-| [`docs/PLANO.md`](docs/PLANO.md) | o plano investigativo: as alegações, o método, quem deveria responder, outros países |
+| [`docs/PLANO.md`](docs/PLANO.md) | o plano investigativo: as alegações, **o método** (§4: as oito técnicas e de onde vem cada uma, de perícia eleitoral, ciência e jornalismo de dados), quem deveria responder, outros países |
 | [`docs/PRE_REGISTRO.md`](docs/PRE_REGISTRO.md) | os critérios de cada teste, gravados antes de olhar os dados |
 | [`docs/FONTES_DE_DADOS.md`](docs/FONTES_DE_DADOS.md) | de onde vem cada dado |
 | [`docs/DADOS_LOCAIS.md`](docs/DADOS_LOCAIS.md) | o que ocupa disco, como baixar de novo e o que pode ser apagado |
