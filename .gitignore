@@ -1,0 +1,8 @@
+dados/brutos/
+dados/derivados/
+dados/execucao/
+dados/chave-local.txt
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
