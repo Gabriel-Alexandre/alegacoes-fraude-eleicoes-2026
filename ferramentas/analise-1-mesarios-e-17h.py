@@ -181,6 +181,28 @@ def main() -> None:
     t19_df.to_csv(SAI / "a1_t19_dose_resposta.csv", index=False)
     resumo["a1"]["t19"] = t19_df.to_dict(orient="records")
 
+
+    # ---------- T1.12 o evento "eleitor ja votou" (emenda E7), com espelho por quem venceu a secao
+    d["vence"] = np.where(d["lula"] > d["flavio"], "Lula", np.where(d["flavio"] > d["lula"], "Flavio", "empate"))
+    t112 = []
+    for escopo, s in [("Brasil", d)] + [(r, d[d["regiao"] == r]) for r in regioes] + [("CE", d[d["uf"] == "CE"])]:
+        for lado in ("todas", "Lula", "Flavio"):
+            g = s if lado == "todas" else s[s["vence"] == lado]
+            t112.append({"escopo": escopo, "secoes_vencidas_por": lado, "secoes": len(g), "votos": int(g["n_votos"].sum()),
+                         "episodios_ja_votou": int(g["n_ep_ja_votou"].sum()), "episodios_apos17": int(g["n_ep_ja_votou_apos17"].sum()),
+                         "por_mil_votos": 1000 * g["n_ep_ja_votou"].sum() / max(1, g["n_votos"].sum()),
+                         "secoes_com_episodio": int((g["n_ep_ja_votou"] > 0).sum()),
+                         "secoes_com_3_ou_mais": int((g["n_ep_ja_votou"] >= 3).sum())})
+    t112 = pd.DataFrame(t112)
+    t112.to_csv(SAI / "a1_t112_eleitor_ja_votou.csv", index=False)
+    resumo["a1"]["t112"] = t112.to_dict(orient="records")
+
+    # ---------- V4: o log contra o contador oficial (eleitores com biometria liberados sem ela)
+    v4 = d.loc[d["cob100"] & d["biom_nh"].notna(), ["uf", "n_manual_mes", "biom_nh"]]
+    resumo["validacao_v4"] = {"secoes": len(v4), "iguais": int((v4["n_manual_mes"] == v4["biom_nh"]).sum()),
+                              "soma_log_manual_mes": int(v4["n_manual_mes"].sum()), "soma_oficial": int(v4["biom_nh"].sum()),
+                              "por_uf": v4.groupby("uf").agg(log=("n_manual_mes", "sum"), oficial=("biom_nh", "sum")).reset_index().to_dict(orient="records")}
+
     # ---------- T1.7 teto do pior caso e T1.8
     validos = float(d["validos_pres"].sum())
     lula, flavio = float(d["lula"].sum()), float(d["flavio"].sum())
