@@ -54,12 +54,13 @@ class Tentativa:
     tentativas_digital: int = 0
     suspenso_mesario: bool = False
     habilitado: bool = False
+    hab_s: int = -1
     suspensao: int = 0
 
 
 @dataclass
 class Leitura:
-    eleitores: list = field(default_factory=list)  # (t_voto_s, tipo, nao_confere, mesario_cod, tentativas_digital, ident, suspensao, habilitado, suspenso_mesario)
+    eleitores: list = field(default_factory=list)  # (t_voto_s, tipo, nao_confere, mesario_cod, tentativas_digital, ident, suspensao, habilitado, suspenso_mesario, hab_s)
     primeiro_evento_s: int | None = None
     pronta_s: int | None = None
     encerrar_s: int | None = None
@@ -129,13 +130,14 @@ def ler_log(linhas: list[str], chave: bytes) -> Leitura:
                 t.mesario = hmac.new(chave, m.group(1).encode(), hashlib.sha256).hexdigest()[:12]
         elif msg.startswith("Eleitor foi habilitado"):
             t.habilitado = True
+            t.hab_s = s
         elif msg.startswith("Eleitor foi suspenso") or msg.startswith("Eleitor votou parcialmente e em seguida foi suspenso"):
             t.suspenso_mesario = True
             t.suspensao += 1
         elif "sem atividade" in msg or "suspen" in msg:
             t.suspensao += 1
         elif msg.startswith("O voto do eleitor foi computado"):
-            out.eleitores.append((s, classificar(t), t.nao_confere, t.mesario, t.tentativas_digital, t.ident, t.suspensao, t.habilitado, t.suspenso_mesario))
+            out.eleitores.append((s, classificar(t), t.nao_confere, t.mesario, t.tentativas_digital, t.ident, t.suspensao, t.habilitado, t.suspenso_mesario, t.hab_s))
             t = Tentativa()
         elif msg.startswith("Urna pronta para receber votos"):
             if out.pronta_s is None:

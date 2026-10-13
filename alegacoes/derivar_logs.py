@@ -60,7 +60,7 @@ def derivar_uf(uf: str) -> dict:
             eleitores.append((sg, mun, zona, secao, h) + e)
     con.close()
     cols = ["uf", "mun_cd", "zona", "secao", "hash", "t_s", "tipo", "nao_confere", "mesario", "tent_digital",
-            "ident", "suspensao", "habilitado", "suspenso_mesario"]
+            "ident", "suspensao", "habilitado", "suspenso_mesario", "hab_s"]
     ev = pd.DataFrame(eleitores, columns=cols)
     for c in ("uf", "mun_cd", "zona", "secao", "hash", "tipo", "mesario", "ident"):
         ev[c] = ev[c].astype("category")
