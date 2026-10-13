@@ -48,3 +48,12 @@ O boletim de urna de 2026 traz `QT_ELEI_BIOM_SEM_HABILITACAO`: *"eleitores com b
 *(A comparação seção a seção, nas 28 UFs, entra na rodada final.)*
 
 **V4, ensaio com 13 UFs (AC, AL, AM, AP, BA, CE, DF, ES, GO, MA, MG, MS, RR):** nas **189.195 seções com log completo, o número de liberações manuais com digital de mesário é idêntico, seção a seção, ao contador oficial** (3.080.090 nos dois). O leitor reproduz exatamente um número que nunca leu.
+
+## Rodada final (28 UFs, 13/out/2026)
+
+| Validação | Resultado |
+|---|---|
+| V1 · reconciliação | 499.135 seções; 125.082.741 votos no log contra 125.264.250 no boletim (99,86%); **495.745 seções (99,58%) batem exatamente**; as demais têm urna de contingência (2.834 seções com o procedimento registrado no log; o TSE informou 1.861 urnas trocadas no dia, e a diferença é de definição: o log registra o procedimento de contingência, inclusive quando não houve troca completa) |
+| V3 · segundo leitor | **100% iguais em 3.000 seções sorteadas** nas quatro contagens |
+| V4 · contador oficial | **495.745 de 495.745 seções idênticas** (8.294.279 liberações manuais com digital de mesário, nos dois) |
+| Leitura à mão | 30 seções, **101 eleitores** (42 por digital, 30 manuais com mesário, 29 sem digital cadastrada), **0 divergências** |
