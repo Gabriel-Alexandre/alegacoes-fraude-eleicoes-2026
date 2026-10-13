@@ -148,7 +148,7 @@ def main() -> None:
     d = carregar()
     # a tabela por secao vai para o git (sem dado pessoal: so contagens), para reproduzir sem os brutos
     (SAI / "dados").mkdir(exist_ok=True)
-    d.to_csv(SAI / "dados" / "secoes_2026.csv.gz", index=False, compression="gzip")
+    d.drop(columns=["agregadas"], errors="ignore").to_parquet(SAI / "dados" / "secoes_2026.parquet", index=False, compression="zstd")
     rng = np.random.default_rng(SEMENTE)
     resumo: dict = {"a1": {}, "a2": {}}
     regioes = sorted(set(REGIAO.values()))

@@ -109,7 +109,8 @@ def g09_curva() -> None:
 
 def g02_perfil_por_hora() -> None:
     ph = pd.read_csv(RES / "a2_perfil_por_hora.csv")
-    fig, ax = figura("Hora a hora: quantos votaram e quantos foram liberados à mão", "Brasil, horário de Brasília. Barras: votos. Linha: % liberados sem digital")
+    fig, ax = figura("Hora a hora: votos e liberações à mão", "Brasil, horário de Brasília. Barras: votos. Linha: % liberados sem digital (até 21h)")
+    ph = ph[(ph["hora"] >= 8) & (ph["hora"] <= 21)]
     tot = ph.groupby("hora")["votos"].sum()
     man = ph[ph["tipo"].isin(["manual_mes", "manual_sem"])].groupby("hora")["votos"].sum().reindex(tot.index, fill_value=0)
     ax.bar(tot.index, tot / 1e6, color="#9aa7b4")
@@ -121,6 +122,9 @@ def g02_perfil_por_hora() -> None:
     ax2.spines["top"].set_visible(False)
     ax.axvline(16.5, color="#333", ls="--")
     ax.text(16.6, ax.get_ylim()[1] * 0.95, "17h", fontsize=22)
+    ax.set_xticks(range(8, 22), [f"{h}h" for h in range(8, 22)], fontsize=18)
+    ax2.set_ylim(0, max(25, float((100 * man / tot).max()) * 1.2))
+    fig.subplots_adjust(right=0.9)
     salvar(fig, "g02_perfil_por_hora")
 
 
@@ -140,7 +144,7 @@ def g03_duracao() -> None:
 def g06_dose_resposta() -> None:
     t = pd.read_csv(RES / "a1_t19_dose_resposta.csv")
     t = t[t["y"].isin(["p_lula", "p_flavio"]) & t["escopo"].isin(["Brasil"] + REGIOES + ["CE"])]
-    fig, ax = figura("Seções com mais liberações à mão depois das 17h votaram diferente?", "Efeito estimado dentro da mesma escola (pontos percentuais por 10 pontos de liberação manual). Barras: intervalo de 95%")
+    fig, ax = figura("Liberação à mão depois das 17h e o voto", "Diferença para as outras seções da mesma escola, por 10 pontos a mais de liberação manual tardia (barra: 95%)")
     esc = ["Brasil"] + REGIOES + ["CE"]
     for k, (y, cor, nome) in enumerate([("p_lula", COR["Lula"], "Lula"), ("p_flavio", COR["Flavio"], "Flávio")]):
         for j, (mod, mk) in enumerate([("apos17", "o"), ("placebo_12_13", "s")]):
@@ -180,15 +184,33 @@ def g13_teto() -> None:
     y = np.arange(len(itens))[::-1]
     for yy, (rot, v, cor) in zip(y, itens):
         ax.barh(yy, v / 1e6, color=cor)
-        ax.text(v / 1e6 + 0.05, yy, br(v / 1e6, 2) + " mi", va="center", fontsize=22)
+        rot_v = br(v / 1e6, 2) + " milhões" if v >= 1e6 else br(v / 1e3, 1) + " mil"
+        ax.text(v / 1e6 + 0.05, yy, rot_v, va="center", fontsize=22)
     ax.set_yticks(y, [i[0] for i in itens], fontsize=18)
     ax.set_xlabel("milhões de votos")
+    ax.set_xlim(0, r["votos_para_flavio_chegar_a_50"] / 1e6 * 1.22)
     fig.subplots_adjust(left=0.33)
     salvar(fig, "g13_teto_do_pior_caso")
 
 
+def g07_quem_vota_tarde() -> None:
+    t = pd.read_csv(RES / "x_exploratoria.csv")
+    t = t[(t["teste"].str.startswith("X2")) & (t["y"] == "p_lula") & t["x"].isin(["f_manual_apos17", "f_bio_apos17"])]
+    esc = ["Brasil"] + REGIOES + ["CE"]
+    fig, ax = figura("O que pesa: a liberação à mão ou quem vota tarde?", "Os dois no mesmo modelo, dentro da mesma escola: efeito no voto em Lula por 10 pontos")
+    for k, (x, cor, nome) in enumerate([("f_manual_apos17", COR["destaque"], "liberados à mão depois das 17h"), ("f_bio_apos17", "#5b7da3", "liberados pela digital depois das 17h (pessoa presente)")]):
+        s = t[t["x"] == x].set_index("escopo").reindex(esc)
+        pos = np.arange(len(esc)) + (k - 0.5) * 0.3
+        ax.errorbar(pos, 10 * s["coef"], yerr=10 * 1.96 * s["ep"], fmt="o", color=cor, ms=13, lw=3, label=nome)
+    ax.axhline(0, color="#999")
+    ax.set_xticks(range(len(esc)), [e.replace("CE", "Ceará") for e in esc])
+    ax.set_ylabel("pontos percentuais")
+    ax.legend(frameon=False, fontsize=18, loc="upper left")
+    salvar(fig, "g07_quem_vota_tarde")
+
+
 def main() -> None:
-    for f in (g01_manual_antes_depois, g02_perfil_por_hora, g03_duracao, g04_serie_contador, g06_dose_resposta, g08_a_conta, g09_curva, g12_ja_votou, g13_teto):
+    for f in (g01_manual_antes_depois, g02_perfil_por_hora, g03_duracao, g04_serie_contador, g06_dose_resposta, g07_quem_vota_tarde, g08_a_conta, g09_curva, g12_ja_votou, g13_teto):
         try:
             f()
             print("ok", f.__name__)

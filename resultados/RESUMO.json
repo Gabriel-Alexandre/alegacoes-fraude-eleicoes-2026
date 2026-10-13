@@ -4193,5 +4193,180 @@
    "excesso_medio_pontos": -1.3839177441035244,
    "secoes_com_excesso_acima_de_20_pontos": 249
   }
+ },
+ "a12": {
+  "secoes": 517179,
+  "secoes_mudaram": 6589,
+  "eleitores_em_secoes_que_mudaram": 1930532,
+  "por_uf": [
+   {
+    "SG_UF": "AC",
+    "secoes": 2411,
+    "secoes_mudaram": 13,
+    "eleitores_em_secoes_que_mudaram": 3105
+   },
+   {
+    "SG_UF": "AL",
+    "secoes": 7246,
+    "secoes_mudaram": 159,
+    "eleitores_em_secoes_que_mudaram": 51825
+   },
+   {
+    "SG_UF": "AM",
+    "secoes": 8577,
+    "secoes_mudaram": 119,
+    "eleitores_em_secoes_que_mudaram": 39048
+   },
+   {
+    "SG_UF": "AP",
+    "secoes": 1971,
+    "secoes_mudaram": 142,
+    "eleitores_em_secoes_que_mudaram": 43742
+   },
+   {
+    "SG_UF": "BA",
+    "secoes": 37950,
+    "secoes_mudaram": 291,
+    "eleitores_em_secoes_que_mudaram": 84337
+   },
+   {
+    "SG_UF": "CE",
+    "secoes": 25650,
+    "secoes_mudaram": 291,
+    "eleitores_em_secoes_que_mudaram": 77901
+   },
+   {
+    "SG_UF": "DF",
+    "secoes": 7050,
+    "secoes_mudaram": 0,
+    "eleitores_em_secoes_que_mudaram": 0
+   },
+   {
+    "SG_UF": "ES",
+    "secoes": 10123,
+    "secoes_mudaram": 69,
+    "eleitores_em_secoes_que_mudaram": 19545
+   },
+   {
+    "SG_UF": "GO",
+    "secoes": 16226,
+    "secoes_mudaram": 277,
+    "eleitores_em_secoes_que_mudaram": 82374
+   },
+   {
+    "SG_UF": "MA",
+    "secoes": 19794,
+    "secoes_mudaram": 367,
+    "eleitores_em_secoes_que_mudaram": 101529
+   },
+   {
+    "SG_UF": "MG",
+    "secoes": 54193,
+    "secoes_mudaram": 489,
+    "eleitores_em_secoes_que_mudaram": 136846
+   },
+   {
+    "SG_UF": "MS",
+    "secoes": 7284,
+    "secoes_mudaram": 140,
+    "eleitores_em_secoes_que_mudaram": 35347
+   },
+   {
+    "SG_UF": "MT",
+    "secoes": 8975,
+    "secoes_mudaram": 164,
+    "eleitores_em_secoes_que_mudaram": 49786
+   },
+   {
+    "SG_UF": "PA",
+    "secoes": 22082,
+    "secoes_mudaram": 810,
+    "eleitores_em_secoes_que_mudaram": 245099
+   },
+   {
+    "SG_UF": "PB",
+    "secoes": 10845,
+    "secoes_mudaram": 348,
+    "eleitores_em_secoes_que_mudaram": 101189
+   },
+   {
+    "SG_UF": "PE",
+    "secoes": 22091,
+    "secoes_mudaram": 340,
+    "eleitores_em_secoes_que_mudaram": 111135
+   },
+   {
+    "SG_UF": "PI",
+    "secoes": 11261,
+    "secoes_mudaram": 357,
+    "eleitores_em_secoes_que_mudaram": 82233
+   },
+   {
+    "SG_UF": "PR",
+    "secoes": 27336,
+    "secoes_mudaram": 359,
+    "eleitores_em_secoes_que_mudaram": 107985
+   },
+   {
+    "SG_UF": "RJ",
+    "secoes": 38738,
+    "secoes_mudaram": 47,
+    "eleitores_em_secoes_que_mudaram": 13744
+   },
+   {
+    "SG_UF": "RN",
+    "secoes": 8336,
+    "secoes_mudaram": 363,
+    "eleitores_em_secoes_que_mudaram": 112497
+   },
+   {
+    "SG_UF": "RO",
+    "secoes": 4941,
+    "secoes_mudaram": 186,
+    "eleitores_em_secoes_que_mudaram": 44362
+   },
+   {
+    "SG_UF": "RR",
+    "secoes": 1627,
+    "secoes_mudaram": 60,
+    "eleitores_em_secoes_que_mudaram": 14661
+   },
+   {
+    "SG_UF": "RS",
+    "secoes": 27738,
+    "secoes_mudaram": 199,
+    "eleitores_em_secoes_que_mudaram": 60138
+   },
+   {
+    "SG_UF": "SC",
+    "secoes": 17558,
+    "secoes_mudaram": 245,
+    "eleitores_em_secoes_que_mudaram": 78392
+   },
+   {
+    "SG_UF": "SE",
+    "secoes": 6067,
+    "secoes_mudaram": 243,
+    "eleitores_em_secoes_que_mudaram": 76388
+   },
+   {
+    "SG_UF": "SP",
+    "secoes": 103904,
+    "secoes_mudaram": 474,
+    "eleitores_em_secoes_que_mudaram": 149606
+   },
+   {
+    "SG_UF": "TO",
+    "secoes": 4490,
+    "secoes_mudaram": 37,
+    "eleitores_em_secoes_que_mudaram": 7718
+   },
+   {
+    "SG_UF": "ZZ",
+    "secoes": 2715,
+    "secoes_mudaram": 0,
+    "eleitores_em_secoes_que_mudaram": 0
+   }
+  ]
  }
 }
