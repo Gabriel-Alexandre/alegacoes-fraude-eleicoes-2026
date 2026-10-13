@@ -28,6 +28,8 @@ Cada fato externo usado no plano, no relatório ou no vídeo, com a fonte primá
 | C2 | Operação Heterônimo (PF), Cabedelo/PB, 23/set/2026: 11 registros de identidade da mesma pessoa por digital; 3 inscrições eleitorais suspeitas (Santa Rita/PB, Benevides/PA, Brasília/DF) | PF, gov.br | Paraíba Online, WSCOM | ✅ |
 | C3 | Pescaria Brava/SC, 2016: eleitora morta votou; TRE-SC anulou os 183 votos da urna | Conjur, 29/jun/2017 | ⬜ | ⚠️ |
 | C4 | Ceará, 04/out: 23 crimes eleitorais em 15 municípios; 2 prisões por compra de voto (Itapajé, Tabuleiro do Norte); 6 procedimentos da PF; 91 urnas trocadas; nenhum caso noticiado de voto no lugar de outro | Diário do Nordeste | O Povo | ✅ |
+| C6 | 2022, Lisboa (voto no exterior): eleitor votou no lugar de outra pessoa; a PF tratou como crime do art. 309 e a urna foi impugnada (votação seguiu em cédula) | Tribuna de Jundiaí (cobertura das eleições 2022) | Canal Rural | ✅ (data pelo endereço das matérias; a conferir no texto) |
+| C7 | Código Eleitoral, art. 309: *"votar ou tentar votar mais de uma vez, ou em lugar de outrem"*, reclusão até três anos | LegJur (texto da Lei 4.737/1965) | Estratégia Concursos | ✅ |
 | C5 | Camaçari/BA: coligação denunciou mesários entregando papéis na fila | Gomes News | ⬜ | ⚠️ |
 
 ## 3. Quem acusou
