@@ -61,7 +61,7 @@ def contar(evs, limite_local: int):
         trecho = trecho[ult_id:]
         if any("[biom" in m for m in trecho):
             bio += 1
-        elif any(m.startswith("Dado digitado confere") or "digital do mes" in m or "habilitou o eleitor" in m
+        elif any(m.startswith("Dado digitado confere") or m.startswith("Ano de nascimento digitado") and "igual" in m or "digital do mes" in m or "habilitou o eleitor" in m
                  or m.startswith("Digital coletada bate") for m in trecho):
             man += 1
         anterior = k

@@ -32,3 +32,17 @@ Hora local de Manaus = Brasília − 1 h, então 16h locais = 17h de Brasília.
 **1ª rodada (600 seções sorteadas de AC, AL, AM, AP e RR):** votos, manuais e votos depois das 17h iguais em 100% das seções; liberações por digital iguais em 99,0%, com 6 votos de diferença. **A causa era do segundo leitor:** às vezes a urna grava *"Tipo de habilitação do eleitor [biométrica]"* logo **depois** de *"Eleitor foi habilitado"*, e ele cortava o trecho na habilitação. Corrigido no segundo leitor; o principal já tratava isso.
 
 **2ª rodada (2.000 seções sorteadas):** **100% iguais** nas quatro contagens (votos 512.785; digital 464.169; manuais 26.331; depois das 17h 28.824). A rodada final, com as 28 UFs, entra quando o leitor rodar no país.
+
+## ⚠️ Lição: concordância entre dois leitores não basta (emenda E8)
+
+Os dois leitores concordavam em 100%, e mesmo assim os dois erravam igual: o eleitor **sem digital cadastrada** é liberado com o texto *"Ano de nascimento digitado é igual ao do cadastro"*, que nenhum dos dois reconhecia, e esses eleitores caíam em `outra` (no AM, 99.485, 4,5% dos votos). A leitura à mão também não pegou, porque só sorteava eleitores das categorias que o leitor já conhecia. **O erro apareceu ao olhar a categoria `outra` de frente.** Correção nos dois leitores e na leitura à mão, que passa a sortear também `manual_sem` e `outra`. Depois da correção, `outra` = 0 no AM e em RR.
+
+## V4 · Comparação com um contador oficial que o leitor nunca viu
+
+O boletim de urna de 2026 traz `QT_ELEI_BIOM_SEM_HABILITACAO`: *"eleitores com biometria, mas que não foram habilitados por meio dela"*. Isso corresponde, no log, à liberação manual **com a digital do mesário** (`manual_mes`: a digital do eleitor existia e falhou). Quem não tem digital cadastrada (`manual_sem`) não entra nesse contador.
+
+| UF | `manual_mes` no log | contador oficial | diferença |
+|---|---|---|---|
+| AM | 120.263 | 120.448 | −185 (0,15%) |
+
+*(A comparação seção a seção, nas 28 UFs, entra na rodada final.)*

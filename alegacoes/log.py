@@ -11,7 +11,8 @@ ultima habilitacao antes do voto computado:
                art. 21): "Solicita digital do mesario", "Capturada a digital do mesario", "Mesario <id> habilitou o
                eleitor" ou "Digital coletada bate com uma digital gravada apos o registro inicial de mesario" (este
                ultimo e o mesario que nao se cadastrou no inicio do dia: a digital existe, o numero nao; codigo "nao_id")
-  manual_sem   sem biometrica, com "Dado digitado confere" e sem mesario (eleitor sem digital cadastrada; art. 20)
+  manual_sem   sem biometrica e sem mesario, com "Ano de nascimento digitado e igual ao do cadastro" (eleitor sem digital
+               cadastrada; art. 20) ou "Dado digitado confere" (emenda E8)
   outra        nenhum dos tres (o texto do tipo, se houver, fica em `tipo_txt`)
 """
 
@@ -122,9 +123,9 @@ def ler_log(linhas: list[str], chave: bytes) -> Leitura:
             t.tentativas_digital += 1
         elif msg.startswith("Solicita") and "dado pessoal" in msg:
             t.pediu_dado = True
-        elif msg.startswith("Dado digitado n"):
+        elif msg.startswith("Dado digitado n") or msg.startswith("Ano de nascimento digitado é diferente") or msg.startswith("Ano de nascimento inv"):
             t.nao_confere += 1
-        elif msg.startswith("Dado digitado confere"):
+        elif msg.startswith("Dado digitado confere") or msg.startswith("Ano de nascimento digitado é igual"):
             t.confere = True
         elif "habilitou o eleitor" in msg:
             m = RE_MESARIO.search(msg)
