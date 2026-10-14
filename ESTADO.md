@@ -17,7 +17,7 @@
 
 ## ⬜ Decisões do autor
 
-Protocolar os pedidos (se o público engajar) · fazer o convite público · apagar `dados/` **só depois do vídeo 8 pronto** (ver `docs/DADOS_LOCAIS.md`). ✅ Repositório **público** desde 13/out/2026 (decisão do autor), sem licença.
+Protocolar os pedidos (se o público engajar) · fazer o convite público · ✅ **`dados/` apagado em 14/out/2026**, com o vídeo 8 pronto (~64 GB; o que ficou e como refazer em `docs/DADOS_LOCAIS.md`). ✅ Repositório **público** desde 13/out/2026 (decisão do autor), sem licença.
 
 ## Como refazer tudo
 

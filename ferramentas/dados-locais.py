@@ -40,6 +40,11 @@ def resumo_banco(p: Path) -> dict:
 
 
 def main() -> None:
+    # 14/out/2026: os brutos foram apagados depois do vídeo (docs/DADOS_LOCAIS.md). Sem eles, este script regravaria
+    # dados/MANIFESTO.json e resultados/MANIFESTO_DOS_DADOS.json vazios, que são a prova do que foi lido. Só roda
+    # depois de baixar tudo de novo.
+    if not (DADOS / "brutos" / "logs").exists():
+        raise SystemExit("dados/brutos/logs não existe: baixe de novo (docs/REPLICAR.md) antes de regravar os manifestos")
     logs = sorted((DADOS / "brutos" / "logs").glob("*.sqlite"))
     manifesto = {"gerado_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"), "logs": [resumo_banco(p) for p in logs]}
     bweb = DADOS / "brutos" / "bweb" / "MANIFESTO.json"
