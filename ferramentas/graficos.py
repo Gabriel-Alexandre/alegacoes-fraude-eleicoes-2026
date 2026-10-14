@@ -130,7 +130,7 @@ def g02_perfil_por_hora() -> None:
 
 def g03_duracao() -> None:
     a = pd.read_csv(RES / "a2_votos_depois_das_17h.csv").set_index("escopo").loc[["Brasil"] + REGIOES]
-    fig, ax = figura("Quanto tempo cada eleitor levou para votar", "Mediana, em segundos, da liberação ao voto computado. A alegação de 2022: \"de 1min40 para 32 s depois das 17h\"")
+    fig, ax = figura("Quanto tempo cada eleitor levou para votar", "Mediana, em segundos, da liberação ao voto (alegação de 2022: de 1min40 para 32 s)")
     x = np.arange(len(a))
     ax.bar(x - 0.27, a["dur_mediana_antes17"], 0.27, color="#9aa7b4", label="antes das 17h")
     ax.bar(x, a["dur_mediana_bio_apos17"], 0.27, color="#5b7da3", label="depois das 17h, com digital")
@@ -144,7 +144,7 @@ def g03_duracao() -> None:
 def g06_dose_resposta() -> None:
     t = pd.read_csv(RES / "a1_t19_dose_resposta.csv")
     t = t[t["y"].isin(["p_lula", "p_flavio"]) & t["escopo"].isin(["Brasil"] + REGIOES + ["CE"])]
-    fig, ax = figura("Liberação à mão depois das 17h e o voto", "Diferença para as outras seções da mesma escola, por 10 pontos a mais de liberação manual tardia (barra: 95%)")
+    fig, ax = figura("Liberação à mão depois das 17h e o voto", "Contra as outras seções da mesma escola, por 10 pontos a mais de liberação à mão tardia")
     esc = ["Brasil"] + REGIOES + ["CE"]
     for k, (y, cor, nome) in enumerate([("p_lula", COR["Lula"], "Lula"), ("p_flavio", COR["Flavio"], "Flávio")]):
         for j, (mod, mk) in enumerate([("apos17", "o"), ("placebo_12_13", "s")]):
