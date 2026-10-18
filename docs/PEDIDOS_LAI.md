@@ -1,12 +1,12 @@
 # Pedidos prontos (Lei de Acesso à Informação e outros)
 
-**Estado:** ⬜ redigidos, **não protocolados.** Decisão do autor (13/out/2026): protocolar se o público engajar com o vídeo.
+**Estado (18/out/2026):** ⬜ redigidos e públicos, **ainda não protocolados.** O autor prevê protocolá-los nesta semana (19 a 25/out/2026).
 
 ## O que é a LAI, em uma linha
 
 A Lei 12.527/2011 obriga órgãos públicos (inclusive TSE, TREs, MPF e PF) a responder pedidos de informação de qualquer pessoa, **sem precisar dizer o motivo**, em até **20 dias, prorrogáveis por mais 10**. O pedido é feito no site do órgão (no TSE e nos TREs, pelo "Serviço de Informação ao Cidadão"; no Executivo federal, pelo Fala.BR). Se a resposta não vier ou for negada, cabe recurso.
 
-**A conta do prazo:** protocolado em 13/out, vence em 2/nov (ou 12/nov com prorrogação), depois do 2º turno de 25/out. Partido político **não** está sujeito à LAI: o pedido ao PL é público, por e-mail ou pela imprensa.
+**A conta do prazo:** os 20 dias (prorrogáveis por mais 10) começam a contar do protocolo de cada pedido; a data de vencimento só existe depois de protocolado. Partido político **não** está sujeito à LAI: o pedido ao PL é público, por e-mail ou pela imprensa.
 
 ⚠️ Os pedidos não acusam ninguém e não pedem dado pessoal. Onde a resposta envolveria nome ou assinatura, pedem a **conferência feita pelo próprio órgão**, não o documento.
 
