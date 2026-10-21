@@ -11,13 +11,13 @@
 | Validação do leitor | `docs/VALIDACAO_DO_LEITOR.md` (log contra o contador oficial do TSE: 495.745 de 495.745 seções idênticas) |
 | Fontes | `docs/VERIFICACAO_DE_FONTES.md` |
 | Revisão | `docs/REVISAO_ADVERSARIAL.md` |
-| Pedidos e convite | `docs/PEDIDOS_LAI.md` (ainda não protocolados; previsto para 19 a 25/out/2026) e `docs/CONVITE_PUBLICO.md` |
+| Pedidos e convite | `docs/PEDIDOS_LAI.md` (✅ protocolados em 21/out/2026: TSE, TRE-BA e TRE-PE, com os códigos e como conferir) e `docs/CONVITE_PUBLICO.md` |
 | Gráficos | `resultados/figuras/` (1920×1080) |
 | Dados e como apagar | `docs/DADOS_LOCAIS.md` |
 
 ## ⬜ Decisões do autor
 
-Protocolar os pedidos (previsto para esta semana, 19 a 25/out/2026) · fazer o convite público · ✅ **`dados/` apagado em 14/out/2026**, com o vídeo 8 pronto (~64 GB; o que ficou e como refazer em `docs/DADOS_LOCAIS.md`). ✅ Repositório **público** desde 13/out/2026 (decisão do autor), sem licença.
+✅ **Pedidos protocolados em 21/out/2026** (TSE, TRE-BA e TRE-PE; respostas até 10/11, ou 20/11 se prorrogadas) · fazer o convite público · ✅ **`dados/` apagado em 14/out/2026**, com o vídeo 8 pronto (~64 GB; o que ficou e como refazer em `docs/DADOS_LOCAIS.md`). ✅ Repositório **público** desde 13/out/2026 (decisão do autor), sem licença.
 
 ## Como refazer tudo
 
