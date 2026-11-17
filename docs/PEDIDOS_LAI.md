@@ -170,3 +170,12 @@ A Lei 12.527/2011 obriga órgãos públicos (inclusive TSE, TREs, MPF e PF) a re
 ## P7 · Missões de observação
 
 > Os relatórios das missões de observação eleitoral credenciadas pelo TSE para 2026 (pedido ao TSE pela LAI, ou à própria missão).
+
+## Andamento (17/11/2026)
+
+| Tribunal | O que chegou |
+|---|---|
+| TRE-PE · 82034721135306 | **13/11/2026: respondido.** 20 zonas responderam sobre as 41 seções: 27 com o que foi pedido (por e-mail ou com a cópia da ata), 12 pediram petição ou identificação no cartório, 1 deixou a ata no cartório e 1 respondeu que a informação está no site do TSE. A resposta transcrita sem dado pessoal e a leitura dela contra o log de cada urna estão no projeto [`investigacao-hipoteses-segundo-turno-2026`](https://github.com/Gabriel-Alexandre/investigacao-hipoteses-segundo-turno-2026/blob/main/docs/RODADA_5.md) |
+| TSE · 82032521133805 | 23/10/2026: o pedido virou processo administrativo; sem resposta às 3 perguntas até 17/11 |
+| TRE-BA · 82034321135124 | sem resposta às perguntas até 17/11 |
+
